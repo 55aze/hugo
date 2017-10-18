@@ -4,7 +4,7 @@
     <title>index</title>
     <meta charset="UTF-8">
     <meta name="description" content="{{ .Description }}">
-    <link rel="stylesheet" href="css/main-{{ hash }}.css" />
+    <link rel="stylesheet" href="/css/{{ index .Site.Data.css.hash "main.css" }}" />
 </head>
 <body>
     <main>
