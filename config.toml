@@ -1,3 +1,10 @@
-baseURL = "http://example.org/"
+baseURL = "http://yaorongli.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Hey"
+
+[params]
+      copyright = "&copy;2017 yaorongli"
+      email= "55yaorong.li@gmail.com"
+      
+
+
