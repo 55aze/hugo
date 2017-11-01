@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+@import url('https://fonts.googleapis.com/css?family=Spectral');
+@import url('https://fonts.googleapis.com/css?family=Rozha+One');
+@import url('https://fonts.googleapis.com/css?family=Raleway|Work+Sans');
+
+
+
+@import "/Users/yaorong/Documents/portfolio/hugo/node_modules/tachyons-sass/tachyons.scss";
+
+$font-crimson: Crimson Text, serif;
+$font-spectral: Spectral, serif;
+$font-rozha: Rozha One, serif;
+$font-work: Work Sans, sans-serif;
+$font-raleway: Raleway, sans-serif;
+$font-Calson: Calson, serif;
+
+@font-face {
+    font-family: 'Calson';
+    font-weight: bold;    
+    src:  url('/Users/yaorong/Documents/portfolio/hugo/static/font/casloncp_2-webfont.woff2') format('woff2'),
+          url('/Users/yaorong/Documents/portfolio/hugo/static/font/casloncp_2-webfont.woff') format('woff');
+  }
+
+$dark-blue: #0017E8;
+$near-white: #f0f0f0;
+
+$min-window: 320px;
+$max-window: 1200px;

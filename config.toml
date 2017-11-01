@@ -1,10 +1,12 @@
 baseURL = "http://yaorongli.com/"
 languageCode = "en-us"
-title = "Hey"
+title = ""
 
 [params]
-      copyright = "&copy;2017 yaorongli"
+      copyright = "&copy;2017 yaorong li"
       email= "55yaorong.li@gmail.com"
+      logo= "img/logo.svg"
+
       
 
 

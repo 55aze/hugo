@@ -1,3 +1,20 @@
-h1{
-    color: red;
+@import "vars";
+
+body{
+    font-family: $font-work;
+    min-width: $min-window;
+    background-color: $near-white;
+    border:  8px solid $dark-blue;
 }
+
+.spectral {
+    font-family: $font-spectral;
+}
+.work{
+    font-family: $font-work;
+}
+
+.calson{
+    font-family: $font-Calson;
+}
+

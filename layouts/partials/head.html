@@ -1,0 +1,4 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{{ with .Title }}<title>{{ . }}</title>{{ end }}
+<link rel="stylesheet" href="/css/{{ index .Site.Data.css.hash "main.css" }}" />
