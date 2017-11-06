@@ -5,7 +5,7 @@
 
 
 
-@import "/Users/yaorong/Documents/portfolio/hugo/node_modules/tachyons-sass/tachyons.scss";
+@import "/Users/yaoli/Documents/portfolio/hugo/portfolio/node_modules/tachyons-sass/tachyons.scss";
 
 $font-crimson: Crimson Text, serif;
 $font-spectral: Spectral, serif;
@@ -15,11 +15,13 @@ $font-raleway: Raleway, sans-serif;
 $font-Calson: Calson, serif;
 
 @font-face {
-    font-family: 'Calson';
-    font-weight: bold;    
-    src:  url('/Users/yaorong/Documents/portfolio/hugo/static/font/casloncp_2-webfont.woff2') format('woff2'),
-          url('/Users/yaorong/Documents/portfolio/hugo/static/font/casloncp_2-webfont.woff') format('woff');
-  }
+  font-family: 'casloncp';
+  src: url('/Users/yaoli/Documents/portfolio/hugo/portfolio/static/font/casloncp-webfont.woff2') format('woff2'),
+       url('/Users/yaoli/Documents/portfolio/hugo/portfolio/static/font/casloncp-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
 
 $dark-blue: #0017E8;
 $near-white: #f0f0f0;
