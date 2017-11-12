@@ -1,6 +1,8 @@
-baseURL = "http://yaorongli.com/"
+baseURL = "http://yaorong-li.com/"
 languageCode = "en-us"
 title = ""
+publishDir = "docs"
+
 
 [params]
       copyright = "&copy;2017 yaorong li"
