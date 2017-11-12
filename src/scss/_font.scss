@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+@import url('https://fonts.googleapis.com/css?family=Spectral');
+@import url('https://fonts.googleapis.com/css?family=Rozha+One');
+@import url('https://fonts.googleapis.com/css?family=Raleway|Work+Sans');
+
+$font-crimson: Crimson Text, serif;
+$font-spectral: Spectral, serif;
+$font-rozha: Rozha One, serif;
+$font-work: Work Sans, sans-serif;
+$font-raleway: Raleway, sans-serif;
+$font-Calson: casloncp, serif;
+
+@font-face {
+    font-family: 'casloncp';
+    src: url('https://cdn.rawgit.com/55aze/hugo/tree/master/static/font/casloncp-webfont.woff2') format('woff2'),
+         url('https://cdn.rawgit.com/55aze/hugo/tree/master/static/font/casloncp-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  

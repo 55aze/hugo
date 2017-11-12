@@ -1,7 +1,6 @@
-baseURL = "http://yaorong-li.com/"
+baseURL = "www.yaorong-li.com/"
 languageCode = "en-us"
 title = ""
-publishDir = "docs"
 
 
 [params]
