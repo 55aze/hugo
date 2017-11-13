@@ -9,6 +9,19 @@
     height: 100vh;
 }
 
+#hand-down{
+    -webkit-animation: updown .5s infinite; /* Safari 4.0 - 8.0 */
+    animation: updown .5s infinite;
+}
+@keyframes updown {
+    0%,100% { transform: translateY(0px); }
+    50% { transform: translateY(20px); }
+}
+
+#about-me{
+    height: 100vh;
+}
+
 #footer {
 
 }
