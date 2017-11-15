@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text');
-@import url('https://fonts.googleapis.com/css?family=Spectral');
+@import url('https://fonts.googleapis.com/css?family=Spectral:400,800');
 @import url('https://fonts.googleapis.com/css?family=Rozha+One');
 @import url('https://fonts.googleapis.com/css?family=Raleway|Work+Sans');
 
@@ -30,13 +30,13 @@ $font-Calson: casloncp, serif;
 }
 
 .light{
-    font-weight: 200;
+    font-weight: lighter !important;
 }
 
 .bold{
-    font-weight: 700;
+    font-weight: 800 !important;
 }
 
 .italic{
-    font-style: italic;
+    font-style: italic !important;
 }
