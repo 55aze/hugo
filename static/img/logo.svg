@@ -1,0 +1,34 @@
+<svg width="22" height="27" viewBox="0 0 22 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Slice</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(25 311)">
+<clipPath id="clip-0" clip-rule="evenodd">
+<path d="M -206 -366L 205 -366L 205 365L -206 365L -206 -366Z" fill="#0017b3"/>
+</clipPath>
+<g id="Google Pixel" clip-path="url(#clip-0)">
+<path d="M -206 -366L 205 -366L 205 365L -206 365L -206 -366Z" fill="#0017b3"/>
+<g id="Group">
+<g id="Group 13">
+<g id="Rectangle 16">
+<use xlink:href="#path0_fill" transform="translate(-22 -306)"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="Group 13">
+<g id="Rectangle 16">
+<use xlink:href="#path1_fill" transform="matrix(-1 1.22465e-16 -1.22465e-16 -1 -9 -286)"/>
+</g>
+</g>
+</g>
+<g id="Rectangle 12">
+<use xlink:href="#path2_fill" transform="translate(-15 -306)"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 1.94293e-16 0L 6 0L 6 14C 4.4087 14 2.88258 13.4381 1.75736 12.4379C 0.632141 11.4378 8.74319e-16 10.0812 0 8.66678L 1.94293e-16 0Z"/>
+<path id="path1_fill" d="M 1.94293e-16 0L 6 0L 6 13C 4.4087 13 2.88258 12.4782 1.75736 11.5495C 0.632141 10.6208 8.74319e-16 9.36115 0 8.04772L 1.94293e-16 0Z"/>
+<path id="path2_fill" d="M 0 0L 7 0C 7 1.85652 6.35468 3.63699 5.20599 4.94975C 4.05731 6.2625 2.49936 7 0.874872 7L 0 7L 0 0Z"/>
+</defs>
+</svg>

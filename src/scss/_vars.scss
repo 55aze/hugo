@@ -1,7 +1,9 @@
 @import "/Users/yaorong/Documents/portfolio/hugo/node_modules/tachyons-sass/tachyons.scss";
 
-$dark-blue: #4327BA;
-$near-white: #F9F7EE;
+$dark-blue: #0017b3;
+$near-white: #f0f0f0;
 
 $min-window: 320px;
 $max-window: 1200px;
+
+$blue-black: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0,23,179,1)), color-stop(66%, rgba(0,23,179,1)), color-stop(100%, rgba(0,0,0,1)));

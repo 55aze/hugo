@@ -1,13 +1,19 @@
-<footer id= "footer" class="ph3 ph5-ns pv6 bt b--dark-blue-10 black-70 tc tl-ns">
-    <a href="mailto:" class="link b f3 f2-ns dim black-70 lh-solid ">{{ $.Site.Params.email}}</a>
-    <p class="f6 db b ttu lh-solid ">
-            {{ with .Site.Params.copyright }}
-            {{ . | safeHTML }}
-            {{ end }}
-    </p>
-    <div class="mt5">
-        <a href="/language/" title="Language" class="f5 f4-ns dib pr2 mid-gray dim link">Facebook</a>
-        <a href="/terms/"    title="Terms" class="f5 f4-ns dib ph2 mid-gray dim link">Linkedin</a>
+<footer id= "footer" class="ph3 ph5-ns pt5 pb3 black-70 tc tl-ns cf bg-dark-blue">
+    <div class="w-50-ns fl-ns fn">
+        <a href="mailto:" class=" link fw8 f5 f4-ns db dim black-70 lh-solid avenir near-white mr3 ">{{ $.Site.Params.email}}</a>
+        <p class="f6 db fw2 ttu lh-solid avenir near-white">
+                {{ with .Site.Params.copyright }}
+                {{ . | safeHTML }}
+                {{ end }}
+        </p>
+        <div><iframe src="img/gif.gif" frameBorder="0"></iframe></div>
+    </div>
+    <div class="mt3 courier blink-hand fr-ns fn" >
+        <a href="/language/" title="Language" class="f5-ns f6 lh-title measure near-white courier fw4 link">Email |</a>
+        <a href="/terms/"    title="Terms" class="f5-ns f6 lh-title measure near-white courier fw4 link">Linked In |</a>
+        <a href="/terms/"    title="Terms" class="f5-ns f6 lh-title measure near-white courier fw4 link">Facebook |</a>
+        <a href="/terms/"    title="Terms" class="f5-ns f6 lh-title measure near-white courier fw4 link"> CV </a>
+        
     </div>
 </footer>
       

@@ -28,13 +28,10 @@ gulp.task("scss", function () {
 })
 
 // Hash images
-gulp.task("images", function () {
-    del(["static/images/**/*"])
-    gulp.src("src/images/**/*")
-        .pipe(hash())
-        .pipe(gulp.dest("static/images"))
-        .pipe(hash.manifest("hash.json"))
-        .pipe(gulp.dest("data/images"))
+gulp.task("images", function () {  
+    del(["static/img/**/*"])
+    gulp.src("src/img/**/*")
+        .pipe(gulp.dest("static/img"))
 })
 
 // Hash javascript
@@ -50,7 +47,7 @@ gulp.task("js", function () {
 // Watch asset folder for changes
 gulp.task("watch", ["scss", "images", "js"], function () {
     gulp.watch("src/scss/**/*", ["scss"])
-    gulp.watch("src/images/**/*", ["images"])
+    gulp.watch("src/img/**/*", ["images"])
     gulp.watch("src/js/**/*", ["js"])
 })
 

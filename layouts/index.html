@@ -1,5 +1,5 @@
 {{ define "main" }} 
-    <div id= "blue-head"  class= "bg-near-white bb b--dashed">
+    <div id= "blue-head"  class= "bg-near-white">
         {{ partial "header.html" . }}
         {{ partial "headline.html" . }}        
     </div>
@@ -9,21 +9,7 @@
     </div>
 
     <div id= "work-display">
-        <ul class="list pl0">
-            <li class="bg-dark-blue near-white pa5-ns ph5 pv3"> 
-                <span class="calson f-subheadline-ns f2"> 
-                    Izumi
-                </span>
-                </br>
-                <span class="avenir f2-ns f4 ">
-                    Help with localisation process within the company.
-                </span>
-            </li>
-            <li></li>
-            <li></li>  
-            <li></li>
-            <li></li>            
-        </ul>
+        {{partial "works.html" .}}
     </div>
     {{ partial "footer.html" . }}
 {{ end }}
