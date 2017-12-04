@@ -4,6 +4,9 @@
   "description": "test ",
   "main": "index.js",
   "scripts": {
+    "deploy": "gh-pages -d public",
+    "build": "hugo",
+    "publish": "npm run build && npm run deploy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,10 +22,12 @@
   "homepage": "https://github.com/55aze/hugo#readme",
   "devDependencies": {
     "del": "^3.0.0",
+    "gh-pages": "^1.1.0",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.0.0",
     "gulp-hash": "^4.1.1",
-    "gulp-sass": "^3.1.0"
+    "gulp-sass": "^3.1.0",
+    "hugo": "0.0.3"
   },
   "dependencies": {
     "gulp-cli": "^1.4.0",
