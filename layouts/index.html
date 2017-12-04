@@ -1,15 +1,23 @@
 {{ define "main" }} 
-    <div id= "blue-head"  class= "bg-near-white">
-        {{ partial "header.html" . }}
-        {{ partial "headline.html" . }}        
+    <div id="blue-head">
+        <div id= "nav">
+            {{ partial "header.html" . }}
+        </div>
+        <div id="headline">
+            {{ partial "headline.html" . }}        
+        </div>
     </div>
   
-    <div id="about-me">
-        {{ partial "aboutme.html" . }}
+    <div id="About" name="About">
+        <a name='About'>
+            {{ partial "aboutme.html" . }}
+        </a>
     </div>
 
-    <div id= "work-display">
-        {{partial "works.html" .}}
+    <div id= "Works" name="Works">
+        <a name = "Works">
+            {{partial "works.html" .}}
+        </a>
     </div>
     {{ partial "footer.html" . }}
 {{ end }}

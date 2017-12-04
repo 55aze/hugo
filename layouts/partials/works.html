@@ -4,16 +4,18 @@
 <!-- <p>who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? </p>  -->
 </div>
 <div class="mh6-l mt5-ns mt3">
+    {{ range .Site.Params.Work.projects }}
     <div class= "pointer blue-hover relative pa3 pa5-ns ">
-        <a class="dark-blue link"> 
+        <a class="dark-blue link" href="{{.url | absURL}}"> 
             <span class="calson f-subheadline-ns f3 db"> 
-                Izumi
+                {{ .name}}
             </span>
             <span class="avenir f4-ns f5 db ">
-                Tools help with localisation process within the company
+                {{ .description}}
             </span>
         </a>
     </div> 
+    {{ end }}
 </div>
    
                

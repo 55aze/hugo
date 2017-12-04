@@ -1,13 +1,61 @@
 baseURL = "www.yaorong-li.com/"
 languageCode = "en-us"
-title = ""
+title = "Yaorong"
 
 
 [params]
       copyright = "&copy;2017 yaorong li"
       email= "55yaorong.li@gmail.com"
-      logo= "img/logo.svg"
+      logo= "img/logo.png"
 
+
+[params.navigation]
+
+      [[params.navigation.links]]
+      name = "About me"
+      url = "#About"
+
+      [[params.navigation.links]]
+      name = "Works"
+      url = "#Works"
+
+      [[params.navigation.links]]
+      name = "Contact"
+      url = "#Contact"
+
+
+[params.contact]
+
+[params.work]
+      [[params.work.projects]]
+      name = "Izumi"
+      url = "works/izumi"
+      description = "Tools help with localisation process within the company"
+
+      [[params.work.projects]]
+      name = "Clio"
+      url = "works/clio"
+      description = "Tools help with localisation process within the company"
+
+      [[params.work.projects]]
+      name = "Clio"
+      url = "works/clio"
+      description = "Tools help with localisation process within the company"
+
+      [[params.work.projects]]
+      name = "Clio"
+      url = "works/clio"
+      description = "Tools help with localisation process within the company"
+
+      [[params.work.projects]]
+      name = "Clio"
+      url = "works/clio"
+      description = "Tools help with localisation process within the company"
+
+      [[params.work.projects]]
+      name = "Clio"
+      url = "works/clio"
+      description = "Tools help with localisation process within the company"
       
 
 
