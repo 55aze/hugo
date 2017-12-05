@@ -2,11 +2,13 @@
 @import "base";
 @import "layout";
 @import "font";
-@import "/Users/yaorong/Documents/portfolio/hugo/node_modules/tachyons-sass/tachyons.scss";
+@import "../../node_modules/tachyons-sass/tachyons.scss";
 
 
 #blue-head {
     min-height: 100vh;
+    background-color: $dark-blue;
+    color: $near-white;
 }
 
 #hand-down{
