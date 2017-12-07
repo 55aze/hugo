@@ -1,23 +1,19 @@
-@import url('https://fonts.googleapis.com/css?family=Spectral:400,800|Work+Sans:200,400,800');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100,400');
 
 
-$font-spectral: Spectral, serif;
-$font-work: Work Sans, sans-serif;
+$font-mono: Roboto Mono, sans-serif;
 $font-Calson: casloncp, serif;
 
 @font-face {
     font-family: 'casloncp';
-    src: url('https://raw.githubusercontent.com/55aze/hugo/blob/master/src/font/casloncp-webfont.woff2') format('woff2'),
-         url('https://raw.githubusercontent.com/55aze/blob/master/hugo/src/font/casloncp-webfont.woff') format('woff');
+    src: url('https://cdn.rawgit.com/55aze/hugo/master/src/font/casloncp-webfont.woff2') format('woff2'),
+         url('https://cdn.rawgit.com/55aze/hugo/master/src/font/casloncp-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
   }
   
-.spectral {
-    font-family: $font-spectral;   
-}
-.work{
-    font-family: $font-work;
+.mono{
+    font-family: $font-mono;
 }
 
 .calson{
