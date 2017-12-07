@@ -7,8 +7,8 @@ $font-Calson: casloncp, serif;
 
 @font-face {
     font-family: 'casloncp';
-    src: url('https://cdn.rawgit.com/55aze/hugo/tree/master/static/font/casloncp-webfont.woff2') format('woff2'),
-         url('https://cdn.rawgit.com/55aze/hugo/tree/master/static/font/casloncp-webfont.woff') format('woff');
+    src: url('https://raw.githubusercontent.com/55aze/hugo/blob/master/src/font/casloncp-webfont.woff2') format('woff2'),
+         url('https://raw.githubusercontent.com/55aze/blob/master/hugo/src/font/casloncp-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
   }
