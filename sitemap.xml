@@ -8,17 +8,26 @@
   </url>
   
   <url>
+    <loc>www.yaorong-li.com/works/clio/</loc>
+  </url>
+  
+  <url>
+    <loc>www.yaorong-li.com/works/izumi/</loc>
+  </url>
+  
+  <url>
     <loc>www.yaorong-li.com/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>www.yaorong-li.com/</loc>
+    <loc>www.yaorong-li.com/works/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>www.yaorong-li.com/</loc>
+    <priority>0</priority>
   </url>
   
 </urlset>
