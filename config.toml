@@ -4,58 +4,70 @@ title = "Yaorong"
 
 
 [params]
-      copyright = "&copy;2017 yaorong li"
-      email= "55yaorong.li@gmail.com"
-      logo= "img/logo.png"
+ copyright = "&copy;2017 yaorong li"
+ email= "55yaorong.li@gmail.com"
+ logo= "img/logo.png"
 
 
 [params.navigation]
 
-      [[params.navigation.links]]
-      name = "About me"
-      url = "#About"
+[[params.navigation.links]]
+name = "About me"
+url = "#About"
 
-      [[params.navigation.links]]
-      name = "Works"
-      url = "#Works"
+[[params.navigation.links]]
+name = "Works"
+url = "#Works"
 
-      [[params.navigation.links]]
-      name = "Contact"
-      url = "#Contact"
 
 
 [params.contact]
+[[params.contact.links]]
+name="email"
+url="mailto:55yaorong.li@gmail.com"
+
+[[params.contact.links]]
+name="linkedin"
+url="https://www.linkedin.com/in/%E5%9E%9A%E8%93%89-%E6%9D%8E-b74989b0/"
+
+[[params.contact.links]]
+name="facebook"
+url="https://www.facebook.com/profile.php?id=100007113309206"
+
+[[params.contact.links]]
+name="CV"
+url="#"
 
 [params.work]
-      [[params.work.projects]]
-      name = "Izumi"
-      url = "works/izumi"
-      description = "Tools help with localisation process within the company"
+[[params.work.projects]]
+name = "Izumi"
+url = "works/izumi"
+description = "Tools help with localisation process within the company"
 
-      [[params.work.projects]]
-      name = "Clio"
-      url = "works/clio"
-      description = "Tools help with localisation process within the company"
+[[params.work.projects]]
+name = "Clio"
+url = "works/clio"
+description = "Tools help with localisation process within the company"
 
-      [[params.work.projects]]
-      name = "Clio"
-      url = "works/clio"
-      description = "Tools help with localisation process within the company"
+[[params.work.projects]]
+name = "Clio"
+url = "works/clio"
+description = "Tools help with localisation process within the company"
 
-      [[params.work.projects]]
-      name = "Clio"
-      url = "works/clio"
-      description = "Tools help with localisation process within the company"
+[[params.work.projects]]
+name = "Clio"
+url = "works/clio"
+description = "Tools help with localisation process within the company"
 
-      [[params.work.projects]]
-      name = "Clio"
-      url = "works/clio"
-      description = "Tools help with localisation process within the company"
+[[params.work.projects]]
+name = "Clio"
+url = "works/clio"
+description = "Tools help with localisation process within the company"
 
-      [[params.work.projects]]
-      name = "Clio"
-      url = "works/clio"
-      description = "Tools help with localisation process within the company"
-      
+[[params.work.projects]]
+name = "Clio"
+url = "works/clio"
+description = "Tools help with localisation process within the company"
+
 
 

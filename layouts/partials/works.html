@@ -1,23 +1,20 @@
-<main class="mb4">
-<div class = " w-100 pa3 avenir fw8 ttu f3 outline" >
+
+
+<div class = "w-100 pa3 avenir fw6 ttc f2-ns f3 white bg-dark-blue" >
     <marquee>works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works</marquee>
 <!-- <p>who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? </p>  -->
 </div>
 <div class="mh6-l mt5-ns mt3">
     {{ range .Site.Params.Work.projects }}
-    <div class= "pointer blue-hover relative pa3 pa5-ns ">
+    <div class= "pointer blue-hover relative pa4 pa5-ns ">
         <a class="dark-blue link" href="{{.url | absURL}}"> 
             <span class="calson f-subheadline-ns f3 db"> 
                 {{ .name}}
             </span>
-            <span class="avenir f4-ns f5 db ">
+            <span class=" avenir f5 db ">
                 {{ .description}}
             </span>
         </a>
     </div> 
     {{ end }}
 </div>
-   
-               
-
-</main>

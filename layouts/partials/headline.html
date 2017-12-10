@@ -1,21 +1,25 @@
-<div class="ph5-ns ph4 mt5-ns mt7 cf">
+<div class="ph5-ns ph4 mt7 cf">
     <a class="fl v-mid mid-gray link w-40-l dn dt-ns" href="#" title="Home">
         <!-- <img src="img/logo.png"  alt="yaorong"> -->
     </a>
 
-    <div class="w-45-l fl ml5-l">
-    <h1 class=" f1 f-subheadline-l lh-solid measure mv2 fw1 calson">
-        Hey
-        </br>
-             My Name is 
-        </br>Yaorong Li. </br>
-    </h1>
-    <h2 class=" f6 lh-title measure avenir mb6 mt3 fw2 "> I <span class="ttc avenir fw6">design</span> products, <span class="ttc avenir fw6">code</span> prototypes and <span class="ttc avenir fw6">solve</span> problems.</h2>
-    <h3 class="f5-ns f6 lh-title measure avenir fw4  blink-hand">
-            Email | Linked In | Facebook | CV
-    </h3>
-    <!-- <h1 id = "hand-down" class="f1 tc mb3">
-       <a class="link" href="">&#128169</a> 
-    </h1> -->
-</div>
+    <div class="w-45-l fl ml5-l cf">
+        <h1 class=" f1 f-subheadline-l lh-solid measure mv2 fw1 calson">
+            Hey,  My Name 
+            </br>
+               is Yaorong Li<span class="washed-red">.</span>
+        </h1>
+        <h2 class=" f6 lh-title measure avenir mt3 fw2 "> I <span class="ttc avenir fw6">design</span> products, <span class="ttc avenir fw6">code</span> prototypes and <span class="ttc avenir fw6">solve</span> problems.</h2>
+        <h3 class="f6 lh-title measure mono fw1 mt5 blink-hand">
+                {{ range .Site.Params.Contact.Links}} 
+                    <a href = "{{ .url}}" class="link white hover-pink dib ttc pl1">
+                    {{ .name}}
+                    </a>
+                {{end}}
+            </ul>
+        </h3>
+        <!-- <h1 id = "hand-down" class="f1 tc mb3">
+        <a class="link" href="">&#128169</a> 
+        </h1> -->
+    </div>
 </div>

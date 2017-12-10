@@ -4,8 +4,10 @@
 
 body{
     min-width: $min-window;
-    background-color: $near-white;
-    border: 8px solid $blue-black;
+}
+
+.scroll{
+    top:100px;
 }
 
 .blink-hand{
@@ -20,14 +22,37 @@ body{
 }
 
 .pink-hover{
-    border-bottom: 1px dotted $pinky;
+    border-bottom: 2px dashed $washed-red;
+    position: relative;
+    &::after{
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 0;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+        background:$washed-red;
+        transition: height 0.3s ease;
+
+    }
+
+    &:hover{
+        color:white;
+        &::after{
+            top: 0;
+            height: 100%;
+        }
+        &:active{
+            color:$dark-blue;
+        }
+    }
     
 }
 
 .blue-hover {
     span{
         z-index: 0;
-        color: $dark-blue;
         transform: translateX(0px);
         transition: all .5s ease;
     }
@@ -40,7 +65,7 @@ body{
         height: 100%;
         opacity: 0;
         background-color: $dark-blue;
-        box-shadow: 0px 11px 33px -9px rgba(29,29,242,0.87);
+        box-shadow: 0px 11px 33px -9px rgba(19, 19, 107, 0.87);
         transition: opacity .5s ease;
         z-index: -1;
     }

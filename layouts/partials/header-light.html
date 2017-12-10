@@ -1,0 +1,8 @@
+
+    <nav class="w-100 border-box pa5">
+        <div class="fr v-mid tr">
+          {{ range .Site.Params.Navigation.links }}
+          <a class="link hover-pink dark-blue mono f6 dib mr3 mr4-ns ttc fw1 condense " href="{{ .url}}" >{{ .name}}</a>
+          {{end}}
+        </div>
+    </nav>
