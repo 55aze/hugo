@@ -24,9 +24,10 @@ $font-Calson: casloncp, serif;
 //style
 .outline{
     color: $dark-blue;
-    -webkit-text-fill-color: $near-white; 
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-fill-color: white; 
+    -webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color:$dark-blue;
+    border: none;
 }
 
 .condense{

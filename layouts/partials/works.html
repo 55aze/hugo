@@ -7,13 +7,19 @@
 <div class="mh6-l mt5-ns mt3">
     {{ range .Site.Params.Work.projects }}
     <div class= "pointer blue-hover relative pa4 pa5-ns ">
-        <a class="dark-blue link" href="{{.url | absURL}}"> 
-            <span class="calson f-subheadline-ns f3 db"> 
-                {{ .name}}
-            </span>
-            <span class=" avenir f5 db ">
-                {{ .description}}
-            </span>
+        <a class="black link cf" href="{{.url | absURL}}"> 
+            <div class="fl w-20 black avenir fw8 f-headline outline">
+                01
+            </div>
+            <div class="fl w-60">
+                <span class="calson f1-ns f3 db"> 
+                    {{ .name}}
+                </span>
+                <span class="avenir f5 db dark-blue">
+                    {{ .description}}
+                </span>
+            </div>
+            
         </a>
     </div> 
     {{ end }}
