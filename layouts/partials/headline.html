@@ -1,18 +1,21 @@
-<div class="ph5-ns ph4 mt7 cf">
+<div class="ph5-ns ph4 mt5 cf">
     <a class="fl v-mid mid-gray link w-40-l dn dt-ns" href="#" title="Home">
-        <!-- <img src="img/logo.png"  alt="yaorong"> -->
+         <!-- <img src="img/logo.png"  alt="yaorong">  -->
     </a>
 
     <div class="w-45-l fl ml5-l cf">
-        <h1 class=" f1 f-subheadline-l lh-solid measure mv2 fw1 calson">
-            Hey,  My Name 
-            </br>
-               is Yaorong Li<span class="washed-red">.</span>
+        <h3 class=" f5 f3-l measure mv2 fw2 mono">
+                I'm Yaorong Li, a Berlin based designer. Currently work at<a href = "https://www.here.com/en" class="b pink link"> HERE</a> in charge of several interesting <a href="#" class="b pink link">projects</a>. 
+            </br></br>
+            I come from a mixed background in both engineering and designing, from Beijing to Paris then finally in Berlin. I hope to live my life in every corner of the world. 
+        </h3>
+        <!-- <h2 class=" f6 lh-title measure avenir mt3 fw2 "> I <span class="ttc avenir fw6">design</span> products, <span class="ttc avenir fw6">code</span> prototypes and <span class="ttc avenir fw6">solve</span> problems.</h2> -->
+        <h1 class="avenir f2-l f3 mt5 ">
+            Stalk me here
         </h1>
-        <h2 class=" f6 lh-title measure avenir mt3 fw2 "> I <span class="ttc avenir fw6">design</span> products, <span class="ttc avenir fw6">code</span> prototypes and <span class="ttc avenir fw6">solve</span> problems.</h2>
-        <h3 class="f6 lh-title measure mono fw1 mt5 blink-hand">
+        <h3 class="f7 avenir ttu fw6 mt2 black-80 blink-hand">
                 {{ range .Site.Params.Contact.Links}} 
-                    <a href = "{{ .url}}" class="link white hover-pink dib ttc pl1">
+                    <a href = "{{ .url}}" class="link hover-white pink dib pl2">
                     {{ .name}}
                     </a>
                 {{end}}

@@ -12,12 +12,16 @@ title = "Yaorong"
 [params.navigation]
 
 [[params.navigation.links]]
-name = "About me"
+name = "About"
 url = "#About"
 
 [[params.navigation.links]]
 name = "Works"
 url = "#Works"
+
+[[params.navigation.links]]
+name = "Contact"
+url = "#Contact"
 
 
 

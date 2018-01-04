@@ -22,7 +22,7 @@ body{
 }
 
 .pink-hover{
-    border-bottom: 2px dashed $washed-red;
+    //border-bottom: 2px dashed $washed-red;
     position: relative;
     &::after{
         position: absolute;
@@ -48,6 +48,32 @@ body{
         }
     }
     
+}
+
+.underline-hover{
+    position: relative;
+    transition: font-weight 1s ease;   
+    text-decoration:none; 
+    
+    &::before{
+        content: '';
+        position: absolute;
+        top: calc(50%);
+        left:0; 
+        width:100%;
+        height: 2px;
+        transform: scale(0,1);        
+        background: white;
+        transition: all 1s ease;
+    }
+
+    &:hover{  
+        text-decoration:none; 
+        &::before{
+            transform: scale(1,1);
+            transition: all 1s ease;
+        }
+    }
 }
 
 .blue-hover {

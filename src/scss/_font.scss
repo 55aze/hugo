@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Overpass+Mono:300,400');
+@import url('https://fonts.googleapis.com/css?family=Overpass+Mono|Work+Sans');
 
 
 $font-mono: Overpass Mono, sans-serif;
+$font-work: Work Sans, sans-serif;
 $font-Calson: casloncp, serif;
 
 @font-face {
@@ -18,6 +19,9 @@ $font-Calson: casloncp, serif;
 
 .calson{
     font-family: $font-Calson;
+}
+.work{
+    font-family: $font-work;
 }
 
 
