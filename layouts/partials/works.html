@@ -1,22 +1,22 @@
 
 
-<div class = "w-100 pa3 avenir fw6 ttc f2-ns f3 white bg-dark-blue" >
-    <marquee>works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works</marquee>
+<!-- <div class = "w-100 pa3 avenir fw6 ttc f2-ns f3 white bg-dark-blue" >
+    <marquee>works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works</marquee> -->
 <!-- <p>who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? </p>  -->
-</div>
+<!-- </div> -->
 <div class="mh6-l mt5-ns mt3">
+    <p class="f4 w-90-l bl bw2 i pl4 b--washed-red mv5 fw2 black-70 lh-title">                  
+            Users are impatient and distracted, I'm thinking in their shoes to deliver simple, clean and functional design; in the meantime, design should be iterative and feasible, I'm prototyping my design to test and improve my ideas from time to time.
+    </p>
     {{ range .Site.Params.Work.projects }}
-    <div class= "pointer blue-hover relative pa4 pa5-ns ">
+    <div class= "pointer blue-hover relative ph4">
         <a class="black link cf" href="{{.url | absURL}}"> 
-            <div class="fl w-20 black avenir fw8 f-headline outline">
-                01
-            </div>
-            <div class="fl w-60">
-                <span class="calson f1-ns f3 db"> 
-                    {{ .name}}
+            <div>
+                <span class="eczar f1-ns f3 db fw8"> 
+                    {{ .name}}: {{ .description}}
                 </span>
                 <span class="avenir f5 db dark-blue">
-                    {{ .description}}
+                    
                 </span>
             </div>
             
