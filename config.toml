@@ -47,31 +47,45 @@ url="#"
 name = "Izumi"
 url = "works/izumi"
 description = "Tools help with localisation process within the company"
+role = "UX/UI Design"
+time = "2016.05 till Now"
+company = "HERE"
 
 [[params.work.projects]]
 name = "Clio"
 url = "works/clio"
 description = "Tools help with localisation process within the company"
+role = "ux/ui design"
+company = "HERE"
+
 
 [[params.work.projects]]
 name = "Clio"
 url = "works/clio"
 description = "Tools help with localisation process within the company"
+company = "HERE"
+
 
 [[params.work.projects]]
 name = "Clio"
 url = "works/clio"
 description = "Tools help with localisation process within the company"
+company = "HERE"
+
 
 [[params.work.projects]]
 name = "Clio"
 url = "works/clio"
 description = "Tools help with localisation process within the company"
+company = "HERE"
+
 
 [[params.work.projects]]
 name = "Clio"
 url = "works/clio"
 description = "Tools help with localisation process within the company"
+company = "HERE"
+
 
 
 

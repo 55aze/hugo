@@ -22,13 +22,12 @@ body{
 }
 
 .pink-hover{
-    //border-bottom: 2px dashed $washed-red;
     position: relative;
     &::after{
         position: absolute;
-        content: "";
+        content: "accccc";
         width: 100%;
-        height: 0;
+        height: 100%;
         bottom: 0;
         left: 0;
         z-index: -1;
@@ -40,7 +39,6 @@ body{
     &:hover{
         color:white;
         &::after{
-            top: 0;
             height: 100%;
         }
         &:active{

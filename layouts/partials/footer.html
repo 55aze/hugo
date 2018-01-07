@@ -1,19 +1,30 @@
-<footer id= "footer" class="ph3 ph5-ns pt5 pb3 black-70 tc tl-ns cf bg-black">
-    <div class="w-50-ns fl-ns fn">
-        <a href="mailto:" class=" link fw8 f5 f4-ns db dim black-70 lh-solid avenir near-white mr3 ">{{ $.Site.Params.email}}</a>
+<footer id= "footer" class="tc tl-ns cf">
+    <div class="ph3 ph5-ns pv5 w-70-ns w-100 fl-ns fn bg-dark-blue">
+        <p class="f4 avenir fw2 white">
+            Say Hi to Me:
+        </p>
+        <a href="mailto:" class=" link fw8 f2 lh-solid white eczar ">{{ $.Site.Params.email}}</a>
+    </div>
+        
+        <!-- <div><iframe src="img/gif.gif" frameBorder="0"></iframe></div> -->
+
+    <div class="ph3 ph5-ns pv5 w-30-ns w-100 fr-ns fn bg-black" >
+        <p class="f4 avenir fw2 white">
+                Contact:
+        </p>
+        <h3 class="f7 avenir ttu fw6 mt2 black-80 blink-hand">
+                    {{ range .Site.Params.Contact.Links}} 
+                        <a href = "{{ .url}}" class="link pink-hover washed-red dib pl2">
+                        {{ .name}}
+                        </a>
+                    {{end}}
+                </ul>
+            </h3>
         <p class="f6 db fw2 ttu lh-solid avenir near-white">
                 {{ with .Site.Params.copyright }}
                 {{ . | safeHTML }}
                 {{ end }}
         </p>
-        <div><iframe src="img/gif.gif" frameBorder="0"></iframe></div>
-    </div>
-    <div class="mt3 courier blink-hand fr-ns fn" >
-        <a href="/language/" title="Language" class="f5-ns f6 lh-title measure near-white courier fw4 link">Email |</a>
-        <a href="/terms/"    title="Terms" class="f5-ns f6 lh-title measure near-white courier fw4 link">Linked In |</a>
-        <a href="/terms/"    title="Terms" class="f5-ns f6 lh-title measure near-white courier fw4 link">Facebook |</a>
-        <a href="/terms/"    title="Terms" class="f5-ns f6 lh-title measure near-white courier fw4 link"> CV </a>
-        
     </div>
 </footer>
       
