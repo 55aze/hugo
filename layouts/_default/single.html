@@ -1,47 +1,28 @@
 {{ define "main" }}
-    <section class="ph5 pv5">
-        <a href="#" class="ttc f6 black mono link pink-hover"> Back to Home </a>
-    </section>
-      
-    <article class="cf ph3 ph5-ns pt3 black">
-        <header class="fn fl-ns w-50-ns pr4-ns">
-          <h1 class="f1 lh-title fw1 mb5-ns mb2 mt0 pt3 bt bw2 calson dark-blue">
-            {{ .Title}}
-          </h1>
-          <h2 class="f6 pink fw6 lh-title mono">
-            {{ .Params.Role}}
-          </h2>
-          <time class="f6 mb0-ns mb5 mono black-80">{{ .Params.Time}}</time>
-        </header>
-        <div class="fn fl-ns w-50-ns avenir">
-          <p class="f5 lh-copy measure mt0-ns">
-            International companies trying to sale their product all over the world.
-          </p>
-          <p class="f5 lh-copy measure">
-            All typography consists of letters. These appear either in the form of a
-            smoothly running sentence or as an assembly of lines, which may even have
-            contrasting shapes. Good typog- raphy begins, and this is no minor
-            matter, with the typeset- ting of a single line of text in a book or a
-            newspaper. Using exactly the same typeface, it is possible to create either
-            a pleasant line, easily read, or an onerous one. Spacing, if it is too wide
-            or too compressed, will spoil almost any typeface.
-          </p>
+   <section>
+    {{ partial "header-back.html" . }}
+   </section>
+  
+   <section class="cf pa6 relative">
+      <div class="w-50-ns w-100">
+        <h2 class="black link eczar f1-ns f3 db fw8"> 
+              {{ .Title}}: {{ .Params.Description}}
+        </h2>
+        <div class="avenir f7">
+          <span class="black fw3 db pb2">
+              {{ .Params.Role}} &nbsp &nbsp {{ .Params.Time}}
+          </span>
+          <a class="avenir f7 washed-red b link " href="https://www.here.com/en">
+            {{ .Params.Company}}
+          </a>
         </div>
-      </article>
-    <!-- <section id="intro" class="ph5 bg-white cf mv5 black">
-        <div class="mono fw2 f6 fl-ns w-40-ns w-100">
-            <p>
-             {{ .Params.Role}}
-            </p>
-            <p>
-             {{ .Params.Time}}
-            </p>
-        </div>
-        <div class="avenir fl-ns w-40-ns w-100 f4 fw4">
-            {{ .Params.Description}}
-        </div>
-    </section> -->
-    <section>
+      </div>
+      <div class="absolute">
+         <img src = "img/works/{{ .Params.image}}"/>
+      </div>
+   </section>
+
+    <section class="ph6 pv2 f4 fw4 lh-copy avenir">
         {{ .Content}}
     </section>
     {{ partial "footer.html" . }}
