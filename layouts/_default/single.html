@@ -4,9 +4,11 @@
    </section>
   
    <section class="cf pa6 relative">
-      <div class="w-50-ns w-100">
-        <h2 class="black link eczar f1-ns f3 db fw8"> 
+      <div class="fl w-50-ns w-100">
+        <h2 class="white link eczar f1-ns f3 fw8"> 
+          <span class="project-title lh-title">
               {{ .Title}}: {{ .Params.Description}}
+          </span>
         </h2>
         <div class="avenir f7">
           <span class="black fw3 db pb2">
@@ -17,8 +19,8 @@
           </a>
         </div>
       </div>
-      <div class="absolute">
-         <img src = "img/works/{{ .Params.image}}"/>
+      <div class="absolute w-60 project-image">
+         <img src = "../../../img/works/{{ .Params.image}}.jpg"/>
       </div>
    </section>
 

@@ -18,8 +18,24 @@ body{
         left:0;
         animation: blink 1s infinite;
     }
-    
 }
+
+
+
+//Single project
+.project-title{
+    background: $dark-blue;
+}
+
+.project-image{
+    right: 10%;
+    width: 60%;
+    z-index: -1;
+}
+
+
+
+//Hover effect
 
 .pink-hover{
     position: relative;
