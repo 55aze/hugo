@@ -5,20 +5,20 @@
 <!-- <p>who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? </p>  -->
 <!-- </div> -->
 <div class="mh6-l mt5-ns mt3">
-    <p class="f4 w-90-l bl bw2 i pl4 b--washed-red mv5 fw2 black-70 lh-title">                  
+    <div class="f4 w-90-l bl bw2 i pl4 b--washed-red mv5 fw2 black-70 lh-title">                  
             Users are impatient and distracted, I'm thinking in their shoes to deliver simple, clean and functional design; in the meantime, design should be iterative and feasible, I'm prototyping my design to test and improve my ideas from time to time.
-    </p>
+    </div>
     {{ range .Site.Params.Work.projects }}
     <div class= "relative ph4 pb6">
-                <a class="black link cf eczar f1-ns f3 db fw8" href="{{.url | absURL}}"> 
+                <a class="black link title-hover cf eczar f1-ns f3 db fw8" href="{{.url | absURL}}"> 
                         {{ .name}}: {{ .description}}
                 </a>
-                <p class="avenir f5 dark-blue pt3">
+                <div class="avenir f5 dark-blue pt3">
                     {{ .role}} &nbsp &nbsp {{ .time}}
-                    <a class="avenir f5 washed-red pl3 b link" href="https://www.here.com/en">
+                    <a class="avenir f5 washed-red ml3 b link" href="https://www.here.com/en">
                         {{ .company}}
                     </a>
-                </p>
+                </div>
     </div> 
     {{ end }}
 </div>

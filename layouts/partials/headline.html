@@ -1,20 +1,20 @@
 <div class="ph5-ns ph4 mt6-ns mt3 cf">
-    <a class="fr v-mid mid-gray link w-40-l " href="#" title="Home">
+    <a class="fr v-mid w-30-ns white-hover" href="#" title="Home">
          <img src="img/logo.png"  alt="yaorong">  
     </a>
 
-    <div class="w-40-l fl ml5-l cf">
-        <h3 class=" f5 f3-l measure mv2 fw3 lh-title avenir">
-                I'm Yaorong Li, a Berlin based designer. Currently work at <a href = "https://www.here.com/en" class="washed-red link pink-hover"> HERE</a> in charge of several interesting <a href="#" class="washed-red link pink-hover">projects</a>. 
+    <div class="w-40-l w-60-ns fl ml5-l pb0-ns pb5">
+        <div class=" f5 f3-l measure mv2 fw3 lh-title avenir">
+                I'm Yaorong Li, a Berlin based designer. Currently work at <a href = "https://www.here.com/en" class="washed-red"> HERE</a> in charge of several interesting <a href="#" class="washed-red">projects</a>. 
             </br></br>
             I come from a mixed background in both engineering and designing, from Beijing to Paris then finally in Berlin. I hope to live my life in every corner of the world. 
-        </h3>
-        <h1 class="eczar f2-l f3 mt5 ttc">
+        </div>
+        <div class="eczar b f2-l f3 mt5 ttc">
             Stalk me here
-        </h1>
+        </div>
         <h3 class="f7 avenir ttu fw6 mt2 black-80 blink-hand">
                 {{ range .Site.Params.Contact.Links}} 
-                    <a href = "{{ .url}}" class="link pink-hover washed-red dib pl2">
+                    <a href = "{{ .url}}" class="washed-red dib ml2 bn">
                     {{ .name}}
                     </a>
                 {{end}}

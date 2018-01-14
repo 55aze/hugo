@@ -16,8 +16,11 @@
 
     <div id= "Works" name="Works">
         <a name = "Works">
-            {{partial "works.html" .}}
+            {{ partial "works.html" .}}
         </a>
     </div>
+    <section id="gallery">
+        {{ partial "gallery.html" .}}
+    </section>
     {{ partial "footer.html" . }}
 {{ end }}

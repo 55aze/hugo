@@ -3,13 +3,13 @@
     {{ partial "header-back.html" . }}
    </section>
   
-   <section class="cf pa6 relative">
-      <div class="fl w-50-ns w-100">
-        <h2 class="white link eczar f1-ns f3 fw8"> 
+   <section class="cf pa6-l pa5-ns pa3 relative project-header mb6-l mb4">
+      <div class="fl w-50-ns w-100 pt4 mb3">
+        <div class="white link eczar f1-l f3 fw8 mb4"> 
           <span class="project-title lh-title">
               {{ .Title}}: {{ .Params.Description}}
           </span>
-        </h2>
+        </div>
         <div class="avenir f7">
           <span class="black fw3 db pb2">
               {{ .Params.Role}} &nbsp &nbsp {{ .Params.Time}}
@@ -19,13 +19,15 @@
           </a>
         </div>
       </div>
-      <div class="absolute w-60 project-image">
+      <div class="absolute-l w-60-l w-100 project-image">
          <img src = "../../../img/works/{{ .Params.image}}.jpg"/>
       </div>
    </section>
 
-    <section class="ph6 pv2 f4 fw4 lh-copy avenir">
+    <section class="cf ph7-ns ph3 pb7-ns pb3">
+      <div class="project-content avenir">
         {{ .Content}}
+      </div>
     </section>
     {{ partial "footer.html" . }}
-{{ end }}
+{{ end }} 

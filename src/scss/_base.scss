@@ -10,6 +10,11 @@ body{
     top:100px;
 }
 
+.in-progress{
+    background: black;
+    width: 100%;
+}
+
 .blink-hand{
     position: relative;
     &::before{
@@ -28,7 +33,8 @@ body{
 }
 
 .project-image{
-    right: 10%;
+    right: 0;
+    top:0;
     width: 60%;
     z-index: -1;
 }
@@ -36,14 +42,35 @@ body{
 
 
 //Hover effect
+.title-hover{
+    border-bottom: none;
+    &:hover{
+        color:$washed-red;
+        &:active{
+            color:$dark-blue;
+        }
+    }
+}
 
-.pink-hover{
+.white-hover{
+    border-bottom: none;
+    &:hover{
+        color:white;
+        &:active{
+            color:$dark-blue;
+        }
+    }
+}
+
+a,.pink-hover{
     position: relative;
+    text-decoration: none;
+    border-bottom: 1px dashed $washed-red;
     &::after{
         position: absolute;
-        content: "accccc";
+        content: "";
         width: 100%;
-        height: 100%;
+        height: 0%;
         bottom: 0;
         left: 0;
         z-index: -1;
@@ -64,10 +91,11 @@ body{
     
 }
 
-.underline-hover{
+.inline-hover{
     position: relative;
     transition: font-weight 1s ease;   
     text-decoration:none; 
+    border-bottom: none;
     
     &::before{
         content: '';
@@ -135,8 +163,44 @@ body{
     }
 }
 
+  
+//default style
+.project-content{
+   
+    h1{
+        line-height: $line-height-copy;
+        font-size:$font-size-3;
+        margin: $spacing-extra-large 0;
+    }
+    p{
+        font-size: $font-size-4;
+        font-weight: 200;
+        line-height: $line-height-title;
+        margin: $spacing-medium 0;
+    }
 
+    hr{
+        height: 6px;
+        background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+        border: 0;
+        margin: $spacing-extra-large 0;
+    }
 
+    img{
+        width:100% !important;
+    }
+
+    blockquote {
+        page-break-inside: avoid;
+
+        p{
+            font-size: $font-size-2;
+            font-weight: 800;
+            font-style: italic;
+            margin: $spacing-medium auto $spacing-medium;
+        }
+    }
+}
 
 //animations
 

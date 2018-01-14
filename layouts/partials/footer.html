@@ -1,30 +1,30 @@
 <footer id= "footer" class="tc tl-ns cf bg-dark-blue">
-    <div class="ph3 ph5-ns pv5 w-70-ns w-100 fl-ns fn">
-        <p class="f4 avenir fw2 white">
+    <div class="ph3 ph5-ns pv5 w-70-l w-100 fl-ns fn">
+        <div class="f4-ns f6 avenir fw2 white mb3">
             Say Hi to Me:
-        </p>
-        <a href="mailto:" class=" link fw8 f2 lh-solid white eczar ">{{ $.Site.Params.email}}</a>
+        </div>
+        <a href="mailto:" class="bn link fw8 f2-ns f4 lh-solid white eczar ">{{ $.Site.Params.email}}</a>
     </div>
         
         <!-- <div><iframe src="img/gif.gif" frameBorder="0"></iframe></div> -->
 
-    <div class="ph3 ph5-ns pv5 w-30-ns w-100 fr-ns fn bg-black" >
-        <p class="f4 avenir fw2 white">
+    <div class="ph3 pl4-l pv5 w-30-l w-100 fr-ns fn bg-black" >
+        <div class="f4-ns f6 avenir fw2 white">
                 Contact:
-        </p>
-        <h3 class="f7 avenir ttu fw6 mt2 black-80 blink-hand">
+        </div>>
+        <div class="f7 avenir ttu fw6 mt2 black-80 blink-hand">
                     {{ range .Site.Params.Contact.Links}} 
-                        <a href = "{{ .url}}" class="link pink-hover washed-red dib pl2">
+                        <a href = "{{ .url}}" class="washed-red dib ml2 bn">
                         {{ .name}}
                         </a>
                     {{end}}
                 </ul>
-            </h3>
-        <p class="f6 db fw2 ttu lh-solid avenir near-white">
+        </div>
+        <div class="f7 b mt4 ttc lh-solid avenir near-white">
                 {{ with .Site.Params.copyright }}
                 {{ . | safeHTML }}
                 {{ end }}
-        </p>
+        </div>
     </div>
 </footer>
       
