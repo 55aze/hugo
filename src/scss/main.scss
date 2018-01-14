@@ -5,20 +5,11 @@
 @import "../../node_modules/tachyons-sass/tachyons.scss";
 
 
-#blue-head {
+#About {
     min-height: 100vh;
     background-color:$dark-blue;
     color: $near-white;
 }
 
-#hand-down{
-    -webkit-animation: updown .5s infinite; /* Safari 4.0 - 8.0 */
-    animation: updown .5s infinite;
-}
-
-
-#About{
-    min-height: 100vh;
-    width: 100%;
-}
+    
 

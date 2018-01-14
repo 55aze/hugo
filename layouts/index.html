@@ -1,6 +1,6 @@
 {{ define "main" }} 
-    <div id="blue-head">
-        <div id= "nav">
+    <div id="About" name = "About">
+        <div id= "nav" class="nav-top">
             {{ partial "header.html" . }}
         </div>
         <div id="headline">
@@ -22,5 +22,7 @@
     <section id="gallery">
         {{ partial "gallery.html" .}}
     </section>
-    {{ partial "footer.html" . }}
+    <section id="Contact" name="Contact">
+        {{ partial "footer.html" . }}
+    </section>
 {{ end }}

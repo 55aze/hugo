@@ -25,6 +25,18 @@ body{
     }
 }
 
+//fixed header
+
+.nav-top{
+    transition: all 1s ease; 
+}
+.fix-nav {
+    position: fixed;
+    width:100%;
+    top: 0px;
+    transition: all 1s ease;
+    z-index: 999;
+}
 
 
 //Single project
@@ -43,7 +55,6 @@ body{
 
 //Hover effect
 .title-hover{
-    border-bottom: none;
     &:hover{
         color:$washed-red;
         &:active{
@@ -52,17 +63,10 @@ body{
     }
 }
 
-.white-hover{
-    border-bottom: none;
-    &:hover{
-        color:white;
-        &:active{
-            color:$dark-blue;
-        }
-    }
-}
 
-a,.pink-hover{
+
+
+.pink-hover, .project-content a{
     position: relative;
     text-decoration: none;
     border-bottom: 1px dashed $washed-red;
@@ -109,13 +113,15 @@ a,.pink-hover{
         transition: all 1s ease;
     }
 
-    &:hover{  
+    &:hover, &:active{  
         text-decoration:none; 
         &::before{
             transform: scale(1,1);
             transition: all 1s ease;
         }
     }
+
+    
 }
 
 .blue-hover {

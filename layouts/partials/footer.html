@@ -3,7 +3,7 @@
         <div class="f4-ns f6 avenir fw2 white mb3">
             Say Hi to Me:
         </div>
-        <a href="mailto:" class="bn link fw8 f2-ns f4 lh-solid white eczar ">{{ $.Site.Params.email}}</a>
+        <a href="mailto:" class="bn dim link fw8 f2-ns f4 lh-solid white eczar ">{{ $.Site.Params.email}}</a>
     </div>
         
         <!-- <div><iframe src="img/gif.gif" frameBorder="0"></iframe></div> -->
@@ -14,7 +14,7 @@
         </div>>
         <div class="f7 avenir ttu fw6 mt2 black-80 blink-hand">
                     {{ range .Site.Params.Contact.Links}} 
-                        <a href = "{{ .url}}" class="washed-red dib ml2 bn">
+                        <a href = "{{ .url}}" class="washed-red dib ml2 bn dim link">
                         {{ .name}}
                         </a>
                     {{end}}

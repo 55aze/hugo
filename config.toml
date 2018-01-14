@@ -40,7 +40,7 @@ url="https://www.facebook.com/profile.php?id=100007113309206"
 
 [[params.contact.links]]
 name="CV"
-url="#"
+url="https://github.com/55aze/hugo/blob/master/src/file/CV.pdf"
 
 [params.work]
 [[params.work.projects]]

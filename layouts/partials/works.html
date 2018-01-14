@@ -10,12 +10,12 @@
     </div>
     {{ range .Site.Params.Work.projects }}
     <div class= "relative ph4 pb6">
-                <a class="black link title-hover cf eczar f1-ns f3 db fw8" href="{{.url | absURL}}"> 
+                <a class="black link title-hover cf eczar f1-ns f3 db fw8" href="{{.url}}"> 
                         {{ .name}}: {{ .description}}
                 </a>
                 <div class="avenir f5 dark-blue pt3">
                     {{ .role}} &nbsp &nbsp {{ .time}}
-                    <a class="avenir f5 washed-red ml3 b link" href="https://www.here.com/en">
+                    <a class="avenir f5 washed-red ml3 b link pink-hover" href="https://www.here.com/en">
                         {{ .company}}
                     </a>
                 </div>
