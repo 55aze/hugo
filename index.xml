@@ -6,7 +6,7 @@
     <description>Recent content on Yaorong</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy;2017 yaorong li</copyright>
+    <copyright>&amp;copy;2017 code and designed by yaorong li 🖖</copyright>
     
 	<atom:link href="www.yaorong-li.com/index.xml" rel="self" type="application/rss+xml" />
     
@@ -17,7 +17,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>www.yaorong-li.com/works/clio/</guid>
-      <description>Izumi is</description>
+      <description>Izumi is an end-to-end system built to support the software internationalization process at HERE. It is important to note that the functionality in Izumi goes beyond that provided by the typical Translation Management Systems (TMS). By going further &amp;ldquo;upstream&amp;rdquo; to support design and copywriting processes, and all the way &amp;ldquo;downstream&amp;rdquo; to localization testing and continuous integration.</description>
     </item>
     
     <item>
@@ -26,7 +26,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>www.yaorong-li.com/works/izumi/</guid>
-      <description>Izumi is an end-to-end system built to support the software internationalization process at HERE. It is important to note that the functionality in Izumi goes beyond that provided by the typical Translation Management Systems (TMS). By going further &amp;ldquo;upstream&amp;rdquo; to support design and copywriting processes, and all the way &amp;ldquo;downstream&amp;rdquo; to localization testing and continuous integration.</description>
+      <description>What is Izumi? Early last Spring, I started my career as a Designer in HERE , which provides map services to millions of users all over the world both on their Phones or in their cars.
+In such a big international company, Izumi is the tool designed to properly localise our products in able to reach out all our users in every corner of the world. I&amp;rsquo;m the Product Designer specailsed in user experience for such a platform.</description>
     </item>
     
   </channel>
