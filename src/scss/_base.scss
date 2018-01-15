@@ -181,7 +181,7 @@ body{
     p{
         font-size: $font-size-4;
         font-weight: 200;
-        line-height: $line-height-title;
+        line-height: $line-height-copy;
         margin: $spacing-medium 0;
     }
 
@@ -193,7 +193,9 @@ body{
     }
 
     img{
-        width:100% !important;
+        margin: $spacing-extra-large 0 0 0; 
+        align-content: center;
+        
     }
 
     blockquote {
