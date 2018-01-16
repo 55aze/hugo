@@ -7,6 +7,9 @@ title = "Yaorong"
  copyright = "&copy;2017 code and designed by yaorong li 🖖"
  email= "55yaorong.li@gmail.com"
  logo= "img/logo.png"
+ googleAnalytics = "UA-110677231-2"
+
+
 
 
 [params.navigation]
