@@ -26,8 +26,6 @@ url = "#Works"
 name = "Contact"
 url = "#Contact"
 
-
-
 [params.contact]
 [[params.contact.links]]
 name="email"
@@ -47,47 +45,41 @@ url="https://github.com/55aze/hugo/blob/master/src/file/CV.pdf"
 
 [params.work]
 [[params.work.projects]]
-name = "Izumi"
+name = "Izumi Editview"
 url = "works/izumi"
-description = "Tools help with localisation process within the company"
-role = "UX/UI Design"
-time = "2016.05 till Now"
+description = "Users with different  "
+role = "UX/UI Design, User persona, User Research"
+time = "2017.08 till 2017.11"
 company = "HERE"
 
 [[params.work.projects]]
-name = "Clio"
-url = "works/clio"
-description = "Tools help with localisation process within the company"
-role = "ux/ui design"
-company = "HERE"
-
-
-[[params.work.projects]]
-name = "Clio"
-url = "works/clio"
-description = "Tools help with localisation process within the company"
+name = "Izumi Dashboard"
+url = "works/dashboard"
+description = "Better navigation "
+time = "2017.12 till Now"
+role = "UX/UI design, User Research"
 company = "HERE"
 
 
 [[params.work.projects]]
 name = "Clio"
 url = "works/clio"
-description = "Tools help with localisation process within the company"
+description = "Platform to help manange the process of documentation delivery"
 company = "HERE"
+role ="UX/UI Design, Usibility Testing"
+time = "2017.04 till now"
+
 
 
 [[params.work.projects]]
-name = "Clio"
-url = "works/clio"
-description = "Tools help with localisation process within the company"
+name = "Kao"
+url = "works/kao"
+role = "UI Design, Summarize Design pattern"
+description = "Create a consistent and convenient design system"
 company = "HERE"
+time = "2016.08 till now"
 
 
-[[params.work.projects]]
-name = "Clio"
-url = "works/clio"
-description = "Tools help with localisation process within the company"
-company = "HERE"
 
 
 

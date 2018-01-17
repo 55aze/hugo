@@ -178,11 +178,28 @@ body{
         font-size:$font-size-3;
         margin: $spacing-extra-large 0;
     }
+    h4{
+        font-size:$font-size-5;
+        margin: $spacing-medium 0;
+        
+    }
     p{
         font-size: $font-size-4;
         font-weight: 200;
         line-height: $line-height-copy;
         margin: $spacing-medium 0;
+    }
+
+    ul {
+        li {
+            font-size: $font-size-4;
+            font-weight: 200;
+            line-height: $line-height-title;
+        }
+    }
+
+    a {
+        font-weight: 400;
     }
 
     hr{
