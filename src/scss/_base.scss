@@ -42,7 +42,7 @@ body{
     width:100%;
     top: 0px;
     transition: all 1s ease;
-    z-index: 999;
+    z-index: 100;
 }
 
 
@@ -154,7 +154,7 @@ body{
     &:hover {
 
         span{
-            z-index: 999;
+            z-index: 100;
             color: white;
             transform: translateX(20px);
             transition: all .5s ease;
@@ -170,7 +170,7 @@ body{
             position: absolute;
             top:49%;
             right:10%; 
-            z-index: 1000;
+            z-index: 100;
         }
 
     }
@@ -180,19 +180,20 @@ body{
 //default style
 .project-content{
 
-   width:75%;
+   padding: 0 12.5%;
    margin: 0 auto;
 
     @media screen and (min-width: 968px) {
-       
-    width: 50%;
-    margin: 0 auto;
+    
+        padding: 0 25%;
+    
+        margin: 0 auto;
     }
     
 
     @media screen and (max-width: 480px) {
        
-        width: 90%;
+        padding: 0 5%;
         margin: 0 auto;
     }
 
@@ -238,10 +239,25 @@ body{
     }
 
     
-
-    img{
-        margin-top: $spacing-medium; 
+    figure{
+        margin:$spacing-large  (-$spacing-extra-large);
+        @media screen and (max-width: 480px) {
+            margin: 0 auto;
+        }
         align-content: center;
+        img{
+            width: 100%;
+        }
+    }
+
+    .image-gallery{
+        margin:$spacing-extra-large  (-$spacing-extra-large);
+
+        &-single{
+            width: 45%;
+            padding: $spacing-small;
+            display: inline;
+        }
     }
 
     blockquote {
@@ -258,6 +274,28 @@ body{
         }
     }
 }
+
+//modal
+.show{
+    z-index: 999;
+    display: none;
+    position: fixed;
+    width: 100%;
+    height:100%;
+    top: 0;
+    left: 0;
+    background: $black-90;
+
+    .img-show{
+        width: 80%;
+        margin: 0 auto;
+        @media screen and (max-width: 480px) {
+            width: 100%;
+            margin: auto;
+        } 
+    }
+}
+
 
 //animations
 

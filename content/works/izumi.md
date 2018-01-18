@@ -32,13 +32,17 @@ I'm the only designer here in the team, I closely work with peoples from differe
 # What is Izumi Editview ?
 
 As a localisation platform, Izumi editview is the most used page in users daily life. Below is a simplified lifecycle of localisation process, you could see that the highlighted parts are all done in editview:
-![Izumi lifecyle](/img/works/flow.png)
+
+{{< img src="/img/works/flow.png" class="popup pointer" >}}
+
 
 
 # What did I inheriated?
 
-![*Old izumi*](/img/works/izumi2.png)
-![](https://memegenerator.net/img/instances/400x/65613242/this-is-my-confused-face.jpg)
+{{< img src="/img/works/izumi2.png" class="popup pointer" >}}
+
+{{< img src="https://memegenerator.net/img/instances/400x/65613242/this-is-my-confused-face.jpg" >}}
+
 
 #### Wow! Such a long menu on the top, but... as a translator, I just care about where can I finish my translation work !?
 
@@ -84,6 +88,11 @@ I presented these research findings with developers and localisation managers, w
 
 
 # Iterative Design
+<!-- 
+{{% image-gallery class="image-gallery" %}}
+    {{% img src="/img/works/flow.png" class="popup pointer image-gallery-single" %}}
+    {{% img src="/img/works/izumi2.png" class="popup pointer image-gallery-single" %}}
+{{% /image-gallery %}} -->
 
 
 ----------

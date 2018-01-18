@@ -38,5 +38,23 @@ $(document).ready(function(){
         }
       });
     }
+
+  // modal 
+  $(".popup img").click(function () {
+    var $src = $(this).attr("src");
+    $(".show").fadeIn();
+    $(".img-show img").attr("src", $src);
+  });
+
+  $(".show").click(function () {
+      $(".show").fadeOut();
+  });
+  $(document).on('keyup',function(evt) {
+    if (evt.keyCode == 27) {
+      $(".show").fadeOut();
+    }
+});
+
+
     
 });
