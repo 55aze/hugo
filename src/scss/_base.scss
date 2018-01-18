@@ -179,11 +179,30 @@ body{
   
 //default style
 .project-content{
-   
+
+   width:75%;
+   margin: 0 auto;
+
+    @media screen and (min-width: 968px) {
+       
+    width: 50%;
+    margin: 0 auto;
+    }
+    
+
+    @media screen and (max-width: 480px) {
+       
+        width: 90%;
+        margin: 0 auto;
+    }
+
     h1{
         line-height: $line-height-copy;
-        font-size:$font-size-3;
-        margin: $spacing-extra-large 0;
+        font-weight: 700;
+        font-size:$font-size-2;
+        font-family: $font-ezcar;
+        color:$dark-blue;
+        margin: $spacing-extra-extra-large 0 0 0;
     }
     h4{
         font-size:$font-size-5;
@@ -191,17 +210,19 @@ body{
         
     }
     p{
-        font-size: $font-size-4;
-        font-weight: 200;
+        font-size: 18px;;
+        font-weight: 300;
         line-height: $line-height-copy;
-        margin: $spacing-medium 0;
+        margin: $spacing-medium  0;
     }
 
     ul {
+        margin: $spacing-large  0;
         li {
-            font-size: $font-size-4;
-            font-weight: 200;
-            line-height: $line-height-title;
+            font-size: 16px;
+            font-weight: 300;
+            color:$black-80;
+            line-height: $line-height-copy;
         }
     }
 
@@ -216,18 +237,22 @@ body{
         margin: $spacing-extra-large 0;
     }
 
+    
+
     img{
-        margin: $spacing-extra-large 0 0 0; 
+        margin-top: $spacing-medium; 
         align-content: center;
-        
     }
 
     blockquote {
         page-break-inside: avoid;
+        background-color: #f7f7f7;
 
         p{
-            font-size: $font-size-2;
-            font-weight: 800;
+            padding: $spacing-medium;
+            font-size: $font-size-5;
+            font-weight: 4;
+            color:$black-80;
             font-style: italic;
             margin: $spacing-medium auto $spacing-medium;
         }

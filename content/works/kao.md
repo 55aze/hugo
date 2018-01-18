@@ -4,7 +4,7 @@ draft: false
 role: "UX/UI Design"
 time: "2017.0 Till Now"
 company: "HERE"
-description: "Create a consistent and convenient design system"
+description: "A consistent and convenient design system"
 ---
 ##Design system
 
