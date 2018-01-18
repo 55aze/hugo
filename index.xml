@@ -17,17 +17,38 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>www.yaorong-li.com/works/clio/</guid>
-      <description>Izumi is an end-to-end system built to support the software internationalization process at HERE. It is important to note that the functionality in Izumi goes beyond that provided by the typical Translation Management Systems (TMS). By going further &amp;ldquo;upstream&amp;rdquo; to support design and copywriting processes, and all the way &amp;ldquo;downstream&amp;rdquo; to localization testing and continuous integration.</description>
+      <description>WIP</description>
     </item>
     
     <item>
-      <title>Izumi</title>
+      <title>Izumi Dashboard</title>
+      <link>www.yaorong-li.com/works/dashboard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>www.yaorong-li.com/works/dashboard/</guid>
+      <description>What is Izumi? Early last Spring, I started my full-time career as a Designer in HERE, which provides map services to millions of users all over the world both on their Phones or in their cars.
+In such a big international company, Izumi is the tool designed to properly localise our products, in able to reach out all our users in every corner of the world. I&amp;rsquo;m the Product Designer specialised in user experience for such a platform.</description>
+    </item>
+    
+    <item>
+      <title>Izumi EditView</title>
       <link>www.yaorong-li.com/works/izumi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>www.yaorong-li.com/works/izumi/</guid>
-      <description>What is Izumi? Early last Spring, I started my career as a Designer in HERE , which provides map services to millions of users all over the world both on their Phones or in their cars.
-In such a big international company, Izumi is the tool designed to properly localise our products in able to reach out all our users in every corner of the world. I&amp;rsquo;m the Product Designer specailsed in user experience for such a platform.</description>
+      <description>What is Izumi? Early last Spring, I started my full-time career as a Designer in HERE, which provides map services to millions of users all over the world both on their Phones or in their cars.
+In such a big international company, Izumi is the tool designed to properly localise our products, in able to reach out all our users in every corner of the world. I&amp;rsquo;m the Product Designer specialised in user experience for such a platform.</description>
+    </item>
+    
+    <item>
+      <title>Kao</title>
+      <link>www.yaorong-li.com/works/kao/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>www.yaorong-li.com/works/kao/</guid>
+      <description>##Design system
+Design system nowadays a trendy topic in design industry. The book &amp;ldquo;Atomic Design&amp;rdquo;[http://bradfrost.com/blog/post/atomic-web-design/] even becomes a must read for a lot of designers.
+In our team, I closely worked with our frontend developer, he is a big fine of consistency, even before I joined the team, he tried to maintain his own component library based on Boostrap.</description>
     </item>
     
   </channel>
