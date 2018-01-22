@@ -78,21 +78,22 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
 <hr />
 
-<h1 id="why-do-we-need-a-dashboard">Why do we need a dashboard?</h1>
+<h1 id="what-is-the-current-problem">What is the current problem?</h1>
 
 <p>Izmui was seeded by 2 developers with basic functions several years ago. In the past several years, a lot of new features were added. It became more and more powerful while in the meantime, we also heard more and more compliants:</p>
 
 <blockquote>
 <p>&ldquo;Hey, where can I change the language settings for this project? &ldquo;
-&ldquo;Where can I import strings in json file?&rdquo;
+&ldquo;What is this for? &ldquo;
+&ldquo;Hey why the translation shows up here?&rdquo;
 &ldquo;Can I create a new user? How and where?&rdquo;</p>
 </blockquote>
 
-<p>The navigation system is a big issue, while it is a complex system, there&rsquo;re some main concepts which are not properly clarified in Izumi:</p>
+<p>People are struggling with the overwhelming contents and messy information structure, 2 main problems should be noticed:</p>
 
-<h4 id="platform-vs-project">Platform VS Project</h4>
+<h4 id="platform-features-mixed-with-projects-features">Platform features mixed with projects features</h4>
 
-<p>As shown below, currently we just throw all menu items into the top menu bar in Izumi. When you switch your roles or projects in izumi, some of the items will be hidden or shown. So I always heard people are complaining they can&rsquo;t find the item they&rsquo;re looking for, this even happened to me several times.</p>
+<p>Currently we just throw all menu items into the top menu bar in Izumi. When you switch your roles or projects in izumi, some of the items will be hidden or shown. So I always heard people are complaining they can&rsquo;t find the item they&rsquo;re looking for, this even happened to me several times.</p>
 
 
 
@@ -110,15 +111,45 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 </div>
 
 
-<h4 id="design-space">Design Space</h4>
+<h4 id="information-overload">Information overload</h4>
 
-<p>It seems like we didn&rsquo;t properly structure our contents in Izumi.</p>
+<p>No summary, no dashboard, Izumi directly link you into the editview once you selected one project. It screaming to the user &ldquo;Hey that&rsquo;s what we offer, just digest it!&rdquo; In dealing with this problem, <a href="http://www.infovis-wiki.net/index.php/Visual_Information-Seeking_Mantra">Shneiderman&rsquo;s information-seeking mantra</a> provides a guideline:</p>
+
+<blockquote>
+<p>&ldquo;Overview first, zoom and filter, then details-on-demand. &ndash; Shneiderman&rsquo;s mantra</p>
+</blockquote>
+
+<p>Overview presents a general information and guides people towards interested sections; Zoom and filter allow user focus on particular areas of interest; finally, evil on-demand details ensure the user can get as close as possible to the raw data and equip them to find whatever they&rsquo;re hunting for. These 3 levels all together empower the user to achieve their goal smoothly, while Izumi just skipped the first 2.</p>
+
+<h4 id="design-space">Design space</h4>
+
+<ol>
+<li><p>Sitemap restructure: Izumi could be a powerful tool as long as user can successfully find what they want</p></li>
+
+<li><p>Bring back hierarchy in Izumi: &ldquo;Overview first, zoom and filter, then details-on-demand.&rdquo;</p></li>
+</ol>
 
 <h1 id="concentrate-on-users-needs">Concentrate on users&rsquo; needs</h1>
 
-<p>I explored several ways to help me sort out all the informations logaically. One interesting method &ndash; &ldquo;<a href="https://alistapart.com/article/object-oriented-ux">OOUX</a>&rdquo; borrowed the idea in programming and treat your design content as an object. These objects could contain meta data, links and another or more objects, which helps you better understand how each object interact with others.</p>
+<p>I explored several ways to help me sort out the information logically. One interesting method &ndash; &ldquo;<a href="https://alistapart.com/article/object-oriented-ux">OOUX</a>&rdquo; borrowed the idea in programming and treat your design content as an object. These objects could contain meta data, links and another or more objects, which helps you better understand how each object interact with others.</p>
 
 <p>I applied this method in Izumi design as well:</p>
+
+
+
+<figure class="popup pointer">
+    
+        <img src="/img/works/dashboard-ooux.png"  />
+    
+</figure>
+<div class="show">
+    <div class="overlay"></div>
+    <div class="img-show">
+      <span>X</span>
+      <img src="">
+    </div>
+</div>
+
 
 <p>Then I figured out that it&rsquo;s too much information for me to digest since we have 10 different users, I decide to come back to basic &ndash; <strong>Concentrate on User&rsquo;s Needs</strong></p>
 
@@ -129,18 +160,70 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 <ol>
 <li><p>Went through every user&rsquo;s (10 in total) use cases in Izumi, wrote down all user scenarios and corresponding flows first;</p></li>
 
-<li><p>Then look into these flows, try to distinguish the neccessary &ldquo;features&rdquo;, &ldquo;navigations&rdquo; and &ldquo;metrics&rdquo; blocks to accomplish these flows;</p></li>
+<li><p>Then look into these flows, try to distinguish the needed &ldquo;features&rdquo;, &ldquo;navigations&rdquo; and &ldquo;metrics&rdquo; blocks to accomplish these flows;</p></li>
 
-<li><p>Finally, get together everybody&rsquo;s blocks, try to categorize them and arrange them in different pages;</p></li>
+<li><p>Finally, get together everybody&rsquo;s blocks, try to sort and arrange them in different pages;</p></li>
 </ol>
 
 <p>After the second step, I could already get the desired blocks for users, below is an example for designer:</p>
 
-<p>By the end of this exercise, I can pick out the most important blocks for each users and also already could have some ideas about how to structure them:</p>
+
+
+<figure class="popup pointer">
+    
+        <img src="/img/works/dashboard-designer.png"  />
+    
+</figure>
+<div class="show">
+    <div class="overlay"></div>
+    <div class="img-show">
+      <span>X</span>
+      <img src="">
+    </div>
+</div>
+
+
+<p>By the end of this exercise, I sorted out the most needed blocks and also categoried them in different pages:</p>
+
+
+
+<figure class="popup pointer">
+    
+        <img src="/img/works/dashboard-card%20sort.png"  />
+    
+</figure>
+<div class="show">
+    <div class="overlay"></div>
+    <div class="img-show">
+      <span>X</span>
+      <img src="">
+    </div>
+</div>
+
+
+<p>After talk with the project owner, I started with the design of <strong>project dashboard</strong> page first.</p>
 
 <h1 id="ideation-working-in-progress">Ideation (Working in progress)</h1>
 
 <p>I&rsquo;m now working on Design solutions ideations.</p>
+
+
+
+<figure class="popup pointer">
+    
+        <img src="/img/works/dashboard-wip.png"  />
+    
+</figure>
+<div class="show">
+    <div class="overlay"></div>
+    <div class="img-show">
+      <span>X</span>
+      <img src="">
+    </div>
+</div>
+
+
+<h2 id="to-be-continued">To be continued&hellip;</h2>
 
       </div>
     </section>
@@ -154,7 +237,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
         
         
 
-    <div class="ph3 pl4-l pv5 w-30-l w-100 fr-ns fn bg-black" >
+    <div class="ph5 pl4-l pv5 w-30-l w-100 fr-ns fn bg-black" >
         <div class="f4-ns f6 avenir fw2 white">
                 Contact:
         </div>>
