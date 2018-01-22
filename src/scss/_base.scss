@@ -238,10 +238,13 @@ body{
         margin: $spacing-extra-large 0;
     }
 
+    b,strong{
+        font-weight: 600;
+    }
     
     figure{
-        margin:$spacing-large  (-$spacing-extra-large);
-        @media screen and (max-width: 480px) {
+        margin:$spacing-large  (-$spacing-extra-extra-large);
+        @media screen and (max-width: 968px) {
             margin: 0 auto;
         }
         align-content: center;

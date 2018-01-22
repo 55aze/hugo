@@ -4,7 +4,7 @@ title = "Yaorong"
 
 
 [params]
- copyright = "&copy;2017 code and designed by yaorong li 🖖"
+ copyright = "&copy;2017 coded and designed by yaorong li 🖖"
  email= "55yaorong.li@gmail.com"
  logo= "img/logo.png"
  googleAnalytics = "UA-110677231-2"
@@ -47,16 +47,26 @@ url="https://github.com/55aze/hugo/blob/master/src/file/CV.pdf"
 [[params.work.projects]]
 name = "Izumi Editview"
 url = "works/izumi"
-description = "One workspace for different users"
+description = "Design one workspace for different users"
 role = "UX/UI Design, User persona, User Research"
-time = "2017.08 till 2017.11"
+time = "2017.08 to 2017.11"
 company = "HERE"
+
+
+[[params.work.projects]]
+name = "Kao"
+url = "works/kao"
+role = "UI Design, Summarize Design pattern"
+description = "Create a consistent and convenient design system"
+company = "HERE"
+time = "2016.08 till now"
+
 
 [[params.work.projects]]
 name = "Izumi Dashboard"
 url = "works/dashboard"
-description = "A better navigation system in izumi"
-time = "2017.12 till Now"
+description = "Design a better navigation system"
+time = "2017.12 till now"
 role = "UX/UI design, User Research"
 company = "HERE"
 
@@ -67,17 +77,9 @@ url = "works/clio"
 description = "Platform to help manange the process of documentation delivery"
 company = "HERE"
 role ="UX/UI Design, Usibility Testing"
-time = "2017.04 till now"
+time = "2017.04 to 2017.07"
 
 
-
-[[params.work.projects]]
-name = "Kao"
-url = "works/kao"
-role = "UI Design, Summarize Design pattern"
-description = "Create a consistent and convenient design system"
-company = "HERE"
-time = "2016.08 till now"
 
 
 
