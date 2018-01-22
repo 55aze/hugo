@@ -45,9 +45,9 @@ Once the UI legos -- automics are ready, I started to use them in my design. Whi
 
 > “Design systems are always evolving, and the way you share and encourage adoption of new iterations will evolve along the way as well.” –Diana Mounter, Design Systems Manager at GitHub
 
-Desgin system should serve as a guide instead of a dictator. Designers should refer to it when needed and also should be encourged to contribute back. Along my daily design, I always look back into the exisiting patterns We constantly work on the refinement of current 
+Desgin system should serve as a guide instead of a dictator. Designers should refer to it when needed and also should be encourged to contribute back. Along my daily design, we constantly work on the refinement of current system.
 
-
+<!-- 
 #  Take Away
 
-It's a really 
+It's a really  -->

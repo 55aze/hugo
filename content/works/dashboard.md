@@ -30,36 +30,46 @@ I'm the only designer here in the team, I closely work with peoples from differe
 
 ----------
 
-# Why do we need a dashboard?
+# What is the current problem?
 
 Izmui was seeded by 2 developers with basic functions several years ago. In the past several years, a lot of new features were added. It became more and more powerful while in the meantime, we also heard more and more compliants:
 
 > "Hey, where can I change the language settings for this project? "
-> "Where can I import strings in json file?"
+> "What is this for? "
+> "Hey why the translation shows up here?"
 > "Can I create a new user? How and where?"
 
-The navigation system is a big issue, while it is a complex system, there're some main concepts which are not properly clarified in Izumi:
 
-#### Platform VS Project
+People are struggling with the overwhelming contents and messy information structure, 2 main problems should be noticed:
 
-As shown below, currently we just throw all menu items into the top menu bar in Izumi. When you switch your roles or projects in izumi, some of the items will be hidden or shown. So I always heard people are complaining they can't find the item they're looking for, this even happened to me several times.
+#### Platform features mixed with projects features
+
+Currently we just throw all menu items into the top menu bar in Izumi. When you switch your roles or projects in izumi, some of the items will be hidden or shown. So I always heard people are complaining they can't find the item they're looking for, this even happened to me several times.
 
 {{< img src="/img/works/project-platform.png" class="popup pointer" >}}
 
-#### Design Space
+#### Information overload
 
-It seems like we didn't properly structure our contents in Izumi. 
+No summary, no dashboard, Izumi directly link you into the editview once you selected one project. It screaming to the user "Hey that's what we offer, just digest it!" In dealing with this problem, [Shneiderman's information-seeking mantra](http://www.infovis-wiki.net/index.php/Visual_Information-Seeking_Mantra) provides a guideline:
 
+> "Overview first, zoom and filter, then details-on-demand. -- Shneiderman's mantra
 
+Overview presents a general information and guides people towards interested sections; Zoom and filter allow user focus on particular areas of interest; finally, evil on-demand details ensure the user can get as close as possible to the raw data and equip them to find whatever they're hunting for. These 3 levels all together empower the user to achieve their goal smoothly, while Izumi just skipped the first 2.
 
+#### Design space
+
+1. Sitemap restructure: Izumi could be a powerful tool as long as user can successfully find what they want
+
+2. Bring back hierarchy in Izumi: "Overview first, zoom and filter, then details-on-demand."
 
 # Concentrate on users' needs
 
-I explored several ways to help me sort out all the informations logaically. One interesting method -- "[OOUX](https://alistapart.com/article/object-oriented-ux)" borrowed the idea in programming and treat your design content as an object. These objects could contain meta data, links and another or more objects, which helps you better understand how each object interact with others.
+I explored several ways to help me sort out the information logically. One interesting method -- "[OOUX](https://alistapart.com/article/object-oriented-ux)" borrowed the idea in programming and treat your design content as an object. These objects could contain meta data, links and another or more objects, which helps you better understand how each object interact with others.
 
 I applied this method in Izumi design as well:
 
 
+{{< img src="/img/works/dashboard-ooux.png" class="popup pointer" >}}
 
 
 
@@ -73,20 +83,27 @@ I took an **application distilling** process for each user, it helps me distingu
 
 1. Went through every user's (10 in total) use cases in Izumi, wrote down all user scenarios and corresponding flows first;
 
-2. Then look into these flows, try to distinguish the neccessary "features", "navigations" and "metrics" blocks to accomplish these flows;
+2. Then look into these flows, try to distinguish the needed "features", "navigations" and "metrics" blocks to accomplish these flows;
 
-3. Finally, get together everybody's blocks, try to categorize them and arrange them in different pages; 
+3. Finally, get together everybody's blocks, try to sort and arrange them in different pages; 
 
 After the second step, I could already get the desired blocks for users, below is an example for designer: 
 
-By the end of this exercise, I can pick out the most important blocks for each users and also already could have some ideas about how to structure them: 
+{{< img src="/img/works/dashboard-designer.png" class="popup pointer" >}}
+
+By the end of this exercise, I sorted out the most needed blocks and also categoried them in different pages: 
 
 
+{{< img src="/img/works/dashboard-card sort.png" class="popup pointer" >}}
 
-
+After talk with the project owner, I started with the design of **project dashboard** page first.
 
 
 # Ideation (Working in progress)
 
 I'm now working on Design solutions ideations. 
 
+{{< img src="/img/works/dashboard-wip.png" class="popup pointer" >}}
+
+
+## To be continued...

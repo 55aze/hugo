@@ -112,10 +112,8 @@ After deployed this new version of edit view, I sat with several HERE designers 
 
 For the next step, I'm looking forward to combine design tools together with Izumi. "[Sketch](https://www.sketchapp.com/)" is a quite good example, it provides all the required information for creating a string, once the Izumi API is ready, it's possible to automate this process.  
 
-----------
-
-# Take Away
+<!-- # Take Away
 
 #### Listen to your users, think in their shoes and put them in the center!!!
 
-To be honest, I was totally overwhelmed with 
+To be honest, I was totally overwhelmed by the initial desig -->
