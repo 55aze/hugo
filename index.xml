@@ -6,7 +6,7 @@
     <description>Recent content on Yaorong</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy;2017 code and designed by yaorong li 🖖</copyright>
+    <copyright>&amp;copy;2017 coded and designed by yaorong li 🖖</copyright>
     
 	<atom:link href="www.yaorong-li.com/index.xml" rel="self" type="application/rss+xml" />
     
@@ -17,7 +17,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>www.yaorong-li.com/works/clio/</guid>
-      <description>WIP</description>
+      <description>Background HERE provides APIs and SDKs for maps and location-aware web and mobile apps. In order to better support our customers, we built up a documentation platform allow devlopers to easily get desired information. Here is an example: &amp;ldquo;HERE Developer Portal&amp;ldquo;
+Since hundreds of products are constantly updating their documentations, developers in documentation team built up a self-managable platfrom which allows each individual product team effectively track their own documentations, product versions and target markets.</description>
     </item>
     
     <item>
@@ -46,9 +47,8 @@ In such a big international company, Izumi is the tool designed to properly loca
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>www.yaorong-li.com/works/kao/</guid>
-      <description>##Design system
-Design system nowadays a trendy topic in design industry. The book &amp;ldquo;Atomic Design&amp;rdquo;[http://bradfrost.com/blog/post/atomic-web-design/] even becomes a must read for a lot of designers.
-In our team, I closely worked with our frontend developer, he is a big fine of consistency, even before I joined the team, he tried to maintain his own component library based on Boostrap.</description>
+      <description>Design system You probably heard about design system, it seems like everybody in the design industry are talking about it now. It goes beyond traditional style guidelines by incoperating designs with creative technologiest to bulid up a sets of resuable components, guided by clear standards and can be assemble to implement any type of applciations.
+When I first joined the team, all our apps were built based on an open-source frameworks &amp;ndash; react-bootstrap.</description>
     </item>
     
   </channel>

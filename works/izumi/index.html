@@ -5,7 +5,7 @@
 <title>Izumi EditView</title>
 <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
 <script type="text/javascript" src="/js/main-70a6b781.js"></script>
-<link rel="stylesheet" href="/css/main-d9f5afed.css" />
+<link rel="stylesheet" href="/css/main-0c2f1e8d.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"/>
 <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 <link rel="icon" href="img/favicon.ico" type="image/x-icon">
@@ -33,7 +33,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
       <div class="fl w-50-ns w-100 pt4 mb3">
         <div class="white link eczar f1-l f3 fw8 mb4"> 
           <span class="project-title lh-title">
-              Izumi EditView:  One Customized User Interface to 
+              Izumi EditView:  Design one workspace for different users
           </span>
         </div>
         <div class="avenir f7">
@@ -80,7 +80,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
 <h1 id="what-is-izumi-editview">What is Izumi Editview ?</h1>
 
-<p>As a localisation platform, Izumi editview is the most used page in users daily life. Below is a simplified lifecycle of localisation process, you could see that the highlighted parts are all done in editview:</p>
+<p>As a localisation platform, Izumi Editview is the most used page in users daily life. Below is a simplified lifecycle of localisation process, you could see that the highlighted parts are all done in Editview:</p>
 
 
 
@@ -98,7 +98,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 </div>
 
 
-<h1 id="what-did-i-inheriated">What did I inheriated?</h1>
+<h1 id="what-did-i-inherit">What did I inherit?</h1>
 
 
 
@@ -134,7 +134,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
 <h4 id="wow-such-a-long-menu-on-the-top-but-as-a-translator-i-just-care-about-where-can-i-finish-my-translation-work">Wow! Such a long menu on the top, but&hellip; as a translator, I just care about where can I finish my translation work !?</h4>
 
-<p>So the biggest issue here is that this page is designed for <strong>EVERYBODY</strong>, from editors, copywriters, developers &hellip; to translator and tester. Everybody looks at the exactly same interface and struggle to accomplish their work effectively here.</p>
+<p>So the biggest issue here is that this page is designed for <strong>EVERYBODY</strong>, from editors, copywriters, developers &hellip; to translator and tester. Everybody looks at the exact same interface and struggle to finish their work here.</p>
 
 <hr />
 
@@ -142,83 +142,128 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
 <h4 id="who-is-your-user-and-what-do-they-want">Who is your user and what do they want?</h4>
 
-<p>I held 1 to 1 meetings with at least 1 representative in each role, trying to not only took down their complaints about editview but also observe what’s their natural behaviours and opinions while working.</p>
-
-<ul>
-<li>6 peoples</li>
-<li>Internal HERE Employee and External Coperate Agencies</li>
-<li>Semi-structured interview with some test task</li>
-</ul>
+<p>I talked with 6 peoples, at least 1 representative in each role, including HERE employees and external agencies users, trying to not only took down their complaints about Editview but also observe what’s their natural behaviours and opinions while working.</p>
 
 <h4 id="some-findings">Some Findings</h4>
 
 <ul>
-<li>Users from external agencies are overwhelmed with the irrelevant and sensitive information and struggle to find their workspace.</li>
-<li>The working process to create a new strings in izumi is tedious, can we automate it?</li>
-<li>Managers want to have a overall summary of the localisation process, this information is missing.</li>
+<li>External users are overwhelmed with the irrelevant and sensitive information, struggle to focus on their work</li>
+<li>The working process to create a new string in Izumi is tedious for designers</li>
+<li>Managers want to have an overview of localisation process which is unclear in current Izumi</li>
 </ul>
 
 <h1 id="limitations-and-design-brief">Limitations and design brief</h1>
 
-<p>I presented these research findings with developers and localisation managers, we distinguished some limitations before we dive into design brief:</p>
-
-<ul>
-<li>Izumi still requires a lot of manual work, automation relies on API implemetation which is not ready yet</li>
-<li>Due to security reason, external user couldn&rsquo;t</li>
-<li>An old style guides is applied to izumi, we need to reuse these components as much as possible</li>
-</ul>
+<p>I presented these research findings with developers and localisation managers, we distinguished some limitations and wrote down the design brief:</p>
 
 <h4 id="how-might-we">How might we</h4>
 
 <ul>
-<li>Remove the chaos from the user interface</li>
-<li>Better focus on each user&rsquo;s personal task</li>
-<li>Reflect the localisation in a comprehesive way</li>
-<li>Improve the overall look and feel to ease everybody&rsquo;s life</li>
+<li>Remove the chaos from user interface</li>
+<li>Customize the user interface for different roles</li>
+<li>Clearly reflect the localisation status for manangers</li>
+<li>Improve the overall look and feel to make it looks consistent and clean</li>
 </ul>
 
 <hr />
 
 <h1 id="ideation">Ideation</h1>
 
-<h1 id="iterative-design">Iterative Design</h1>
+<p>To help users focus on their own tasks, we tried to categorize izumi workflow in 3 different stages:</p>
 
-<!-- 
-<div class="image-gallery">
-    <p><figure class="popup pointer image-gallery-single"></p>
+<ol>
+<li><p><strong>Authoring</strong>: Desginers and copywriters need to create and approve UI strings for translation, Authoring is their working space</p></li>
 
-<pre><code>    &lt;img src=&quot;/img/works/flow.png&quot;  /&gt;
-</code></pre>
+<li><p><strong>Translation</strong>: When strings are ready for translation, project manager will send them out to external agencies. Translators and external agency managers will work in translation stage;</p></li>
 
-<p></figure>
+<li><p><strong>Testing</strong>: The same as translation, when translation is done, testers and agency managers will test the results in testing stage.</p></li>
+</ol>
+
+<p>Depending on different user roles, people will see different user interface which help them only to only focus on their tasks.</p>
+
+<h1 id="ui-design">UI Design</h1>
+
+<p>I worked with front-end developer together created an universal style guide called &ldquo;<a href="/works/kao">kao</a>&rdquo;, which contains style, atomics and react-based components.</p>
+
+
+
+<figure class="pointer dim link bn">
+    <a href="/works/kao" class="bn">
+        <img src="/img/works/kao.png"  />
+    </a>
+</figure>
 <div class="show">
     <div class="overlay"></div>
     <div class="img-show">
       <span>X</span>
       <img src="">
     </div>
-</div></p>
-
-<p><figure class="popup pointer image-gallery-single"></p>
-
-<pre><code>    &lt;img src=&quot;/img/works/izumi2.png&quot;  /&gt;
-</code></pre>
-
-<p></figure>
-<div class="show">
-    <div class="overlay"></div>
-    <div class="img-show">
-      <span>X</span>
-      <img src="">
-    </div>
-</div></p>
-
 </div>
-   -->
+
+
+<p>A good design system really helped me to smoothly communicate with developers and also ensured that I could always take consideration the overall look and feel to keep consistent with my old designs.</p>
+
+
+
+<figure class="popup pointer">
+    
+        <img src="/img/works/translator-editview.png"  />
+    
+</figure>
+<div class="show">
+    <div class="overlay"></div>
+    <div class="img-show">
+      <span>X</span>
+      <img src="">
+    </div>
+</div>
+
+
+
+
+<figure class="popup pointer">
+    
+        <img src="/img/works/designer-editview.png"  />
+    
+</figure>
+<div class="show">
+    <div class="overlay"></div>
+    <div class="img-show">
+      <span>X</span>
+      <img src="">
+    </div>
+</div>
+
+
+
+
+<figure class="popup pointer">
+    
+        <img src="/img/works/pm-editview.png"  />
+    
+</figure>
+<div class="show">
+    <div class="overlay"></div>
+    <div class="img-show">
+      <span>X</span>
+      <img src="">
+    </div>
+</div>
+
+
+<h1 id="test-and-iterations">Test and Iterations</h1>
+
+<p>After deployed this new version of edit view, I sat with several HERE designers and copywriter when they were using Izumi edtiview to finish their work. In general users are happy with this refreshment, still they&rsquo;re complaing it requires a lot of tedious and manual work.</p>
+
+<p>For the next step, I&rsquo;m looking forward to combine design tools together with Izumi. &ldquo;<a href="https://www.sketchapp.com/">Sketch</a>&rdquo; is a quite good example, it provides all the required information for creating a string, once the Izumi API is ready, it&rsquo;s possible to automate this process.</p>
 
 <hr />
 
 <h1 id="take-away">Take Away</h1>
+
+<h4 id="listen-to-your-users-think-in-their-shoes-and-put-them-in-the-center">Listen to your users, think in their shoes and put them in the center!!!</h4>
+
+<p>To be honest, I was totally overwhelmed with</p>
 
       </div>
     </section>
@@ -258,7 +303,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
         </div>
         <div class="f7 b mt4 ttc lh-solid avenir near-white">
                 
-                &copy;2017 code and designed by yaorong li 🖖
+                &copy;2017 coded and designed by yaorong li 🖖
                 
         </div>
     </div>

@@ -5,7 +5,7 @@
 <title>Izumi Dashboard</title>
 <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
 <script type="text/javascript" src="/js/main-70a6b781.js"></script>
-<link rel="stylesheet" href="/css/main-d9f5afed.css" />
+<link rel="stylesheet" href="/css/main-0c2f1e8d.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"/>
 <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 <link rel="icon" href="img/favicon.ico" type="image/x-icon">
@@ -33,7 +33,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
       <div class="fl w-50-ns w-100 pt4 mb3">
         <div class="white link eczar f1-l f3 fw8 mb4"> 
           <span class="project-title lh-title">
-              Izumi Dashboard: A better navigation system in Izumi
+              Izumi Dashboard: Design a better navigation system
           </span>
         </div>
         <div class="avenir f7">
@@ -46,7 +46,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
         </div>
       </div>
       <div class="absolute-l w-60-l w-100 project-image">
-         <img src = "/img/works/dashboard1.png"/>
+         <img src = "/img/works/dashboard.png"/>
       </div>
    </section>
 
@@ -80,7 +80,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
 <h1 id="why-do-we-need-a-dashboard">Why do we need a dashboard?</h1>
 
-<p>Several years ago, izmui was seeded by 2 developers with really basic functions. In the past several years, a lot of new features were added. It became more and more powerful while in the meantime, we also heard more and more compliants:</p>
+<p>Izmui was seeded by 2 developers with basic functions several years ago. In the past several years, a lot of new features were added. It became more and more powerful while in the meantime, we also heard more and more compliants:</p>
 
 <blockquote>
 <p>&ldquo;Hey, where can I change the language settings for this project? &ldquo;
@@ -88,13 +88,59 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 &ldquo;Can I create a new user? How and where?&rdquo;</p>
 </blockquote>
 
-<p>The hardly(zero) designed navigation system is a big issue, while it is a complex system, there&rsquo;re some main concepts which are not properly clarified in Izumi:</p>
+<p>The navigation system is a big issue, while it is a complex system, there&rsquo;re some main concepts which are not properly clarified in Izumi:</p>
 
-<ul>
-<li><h4 id="platform-vs-project">Platform VS Project</h4></li>
+<h4 id="platform-vs-project">Platform VS Project</h4>
 
-<li><h4 id="internal-vs-external">Internal VS External</h4></li>
-</ul>
+<p>As shown below, currently we just throw all menu items into the top menu bar in Izumi. When you switch your roles or projects in izumi, some of the items will be hidden or shown. So I always heard people are complaining they can&rsquo;t find the item they&rsquo;re looking for, this even happened to me several times.</p>
+
+
+
+<figure class="popup pointer">
+    
+        <img src="/img/works/project-platform.png"  />
+    
+</figure>
+<div class="show">
+    <div class="overlay"></div>
+    <div class="img-show">
+      <span>X</span>
+      <img src="">
+    </div>
+</div>
+
+
+<h4 id="design-space">Design Space</h4>
+
+<p>It seems like we didn&rsquo;t properly structure our contents in Izumi.</p>
+
+<h1 id="concentrate-on-users-needs">Concentrate on users&rsquo; needs</h1>
+
+<p>I explored several ways to help me sort out all the informations logaically. One interesting method &ndash; &ldquo;<a href="https://alistapart.com/article/object-oriented-ux">OOUX</a>&rdquo; borrowed the idea in programming and treat your design content as an object. These objects could contain meta data, links and another or more objects, which helps you better understand how each object interact with others.</p>
+
+<p>I applied this method in Izumi design as well:</p>
+
+<p>Then I figured out that it&rsquo;s too much information for me to digest since we have 10 different users, I decide to come back to basic &ndash; <strong>Concentrate on User&rsquo;s Needs</strong></p>
+
+<p>I took an <strong>application distilling</strong> process for each user, it helps me distinguished the most important sections to include in the dashboard for different users.</p>
+
+<h4 id="how-did-i-do-that">How did I do that?</h4>
+
+<ol>
+<li><p>Went through every user&rsquo;s (10 in total) use cases in Izumi, wrote down all user scenarios and corresponding flows first;</p></li>
+
+<li><p>Then look into these flows, try to distinguish the neccessary &ldquo;features&rdquo;, &ldquo;navigations&rdquo; and &ldquo;metrics&rdquo; blocks to accomplish these flows;</p></li>
+
+<li><p>Finally, get together everybody&rsquo;s blocks, try to categorize them and arrange them in different pages;</p></li>
+</ol>
+
+<p>After the second step, I could already get the desired blocks for users, below is an example for designer:</p>
+
+<p>By the end of this exercise, I can pick out the most important blocks for each users and also already could have some ideas about how to structure them:</p>
+
+<h1 id="ideation-working-in-progress">Ideation (Working in progress)</h1>
+
+<p>I&rsquo;m now working on Design solutions ideations.</p>
 
       </div>
     </section>
@@ -134,7 +180,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
         </div>
         <div class="f7 b mt4 ttc lh-solid avenir near-white">
                 
-                &copy;2017 code and designed by yaorong li 🖖
+                &copy;2017 coded and designed by yaorong li 🖖
                 
         </div>
     </div>
