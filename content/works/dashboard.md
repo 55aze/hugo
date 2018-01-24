@@ -44,7 +44,7 @@ People are struggling with the overwhelming contents and messy information struc
 
 #### Platform features mixed with projects features
 
-Currently we just throw all menu items into the top menu bar in Izumi. When you switch your roles or projects in izumi, some of the items will be hidden or shown. So I always heard people are complaining they can't find the item they're looking for, this even happened to me several times.
+How do we structure our menu items nowadays? We just throw them into whichever corner of the top menu bar in Izumi.(At least they are still available. :P) When switching roles or projects in Izumi, these menu items will be partially hidden or seen. So I always heard people are complaining they can't find the item they're looking for, this even happened to me several times.
 
 {{< img src="/img/works/project-platform.png" class="popup pointer" >}}
 

@@ -43,7 +43,9 @@ Since hundreds of products are constantly updating their documentations, develop
 
 
 ----
-## Below are just drafts !!!!!
+
+# Documentation WIP
+<!-- ## Below are just drafts !!!!!
 
 # Current Platform and Usablity test
 
@@ -73,4 +75,4 @@ Users helped me distinguished several points that
 The biggest challenge in this project is that the initial aim, the project scope and even the workfow are all ambigious.
 
 
-The old user interface definately had a lot of usability issues while the most important problem is that there's no clearly defined flow to accomplish. Everybody in this long  I spent a lot of time talk with everybody involved in 
+The old user interface definately had a lot of usability issues while the most important problem is that there's no clearly defined flow to accomplish. Everybody in this long  I spent a lot of time talk with everybody involved in  -->

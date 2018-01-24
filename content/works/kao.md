@@ -17,7 +17,7 @@ When I first joined the team, all our apps were built based on an open-source fr
 
 # Inventory then create style guides
 
-I did a complete inventory of the exisiting applications first and took down all the UI elements, and distinguished those inconsistent ones. Then I worked on the basic style guides and created atomic elements based on guidelines. These atomics can be then assembled together to create different components in my design. That's what I called "3 levels of design guideline":
+I did a complete inventory of the exisiting applications first and took down all the UI elements, trying to distinguish the 50 shades of blue or 20 styles of button. Then I cleaned them up and defined the basic style guide, based on which, I also created atomic elements. Those atomics can be then assembled together to create different components in my design. That's what I called "3 levels of design guideline":
 
 #### 3 levels of design guideline
 
@@ -26,7 +26,7 @@ I did a complete inventory of the exisiting applications first and took down all
 2. **Atomics**: Basic UI legos including buttons, forms, icons and etc were created according to the basic style guides;
 
 3. **Components**:
-Once the UI legos -- automics are ready, I started to use them in my design. While even though they might look consistent, but that doesn’t neccssaryly implies that assembled results will provide the same experience. Along my work, I always pay attention to repeated UX partterns, like "edit profile", "add new" and etc.. These repeated partterns and the way they were presendted by atomics consists of the Components. They should be properly documented why and when to use.
+Once the UI legos -- automics are ready, I started to apply them in interface design. While thoes legos, they might look similiar, but it doesn’t necessarily implies that the assembled results will provide the same experience. Along my work, I always pay attention to repeated UX partterns, like "edit profile", "add new" and etc.. These repeated partterns and the way they were presendted by atomics consists of the Components. They should be properly documented why and when to use.
 
 {{< img src="/img/works/kao-basic.png" class="popup pointer" >}}
 
@@ -45,7 +45,7 @@ Once the UI legos -- automics are ready, I started to use them in my design. Whi
 
 > “Design systems are always evolving, and the way you share and encourage adoption of new iterations will evolve along the way as well.” –Diana Mounter, Design Systems Manager at GitHub
 
-Desgin system should serve as a guide instead of a dictator. Designers should refer to it when needed and also should be encourged to contribute back. Along my daily design, we constantly work on the refinement of current system.
+Desgin system serves as a guide instead of a dictator, which means designers should refer to it when needed and also should be encourged to contribute back as well. Along my daily design, I constantly working on the refinement of current system.
 
 <!-- 
 #  Take Away
