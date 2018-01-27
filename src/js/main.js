@@ -7,7 +7,7 @@ $(document).ready(function(){
   //forzen nav
     var nav = $(".nav-top");
     $(window).on("scroll", function(e) {  
-      if ($(this).scrollTop() > 100) {
+      if ($(this).scrollTop() > 80) {
         nav.addClass("fix-nav");
       } else {
         nav.removeClass("fix-nav");
