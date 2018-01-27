@@ -54,7 +54,30 @@ $(document).ready(function(){
       $(".show").fadeOut();
     }
 });
+//scroll
+
+window.sr = ScrollReveal({viewFactor: 0.1}, {scale: 1});
+sr.reveal('#Works', { reset: true });
+sr.reveal('#headline', { reset: true }, {delay:1000});
+sr.reveal('.pic', { reset: true }, {duration:5000}, 500);
+sr.reveal('#footer', { reset: true });
+sr.reveal('#content', {duration:500});
 
 
+// var titleAnime = anime.timeline({
+//   autoplay:true
+// });
+
+// titleAnime
+// .add({
+//   targets: "#About",
+//   translateY: {value: ["100vh","0"]},
+//   opacity: 1,
+//   easing: "easeOutExpo",
+//   duration: 860,
+  
+  
+// })
     
 });
+

@@ -12,7 +12,7 @@
         <div class="f4-ns f6 avenir fw2 white">
                 Contact:
         </div>>
-        <div class="f7 avenir ttu fw6 mt2 black-80 blink-hand">
+        <div class="f4 avenir ttc fw6 mt2 black-80 blink-hand">
                     {{ range .Site.Params.Contact.Links}} 
                         <a href = "{{ .url}}" class="washed-red dib ml2 bn dim link">
                         {{ .name}}
@@ -20,7 +20,7 @@
                     {{end}}
                 </ul>
         </div>
-        <div class="f7 b mt4 ttc lh-solid avenir near-white">
+        <div class="f7 mt4 ttc lh-solid avenir near-white">
                 {{ with .Site.Params.copyright }}
                 {{ . | safeHTML }}
                 {{ end }}
