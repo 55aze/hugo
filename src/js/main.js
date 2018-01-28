@@ -12,6 +12,11 @@ $(document).ready(function(){
       } else {
         nav.removeClass("fix-nav");
       }
+      if ($(this).scrollTop() > $(window).height()) {
+        nav.addClass("fix-nav-color");
+      } else {
+        nav.removeClass("fix-nav-color");
+      }
     });
 
   //smooth scroll

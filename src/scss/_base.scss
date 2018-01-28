@@ -32,6 +32,7 @@ body{
 
 .in-progress{
     background: black;
+    height:80px;
     width: 100%;
 }
 
@@ -55,10 +56,16 @@ body{
     position: fixed;
     width:100%;
     top: 0px;
+    right:0;
     transition: all 0.4s ease;
     z-index: 1000;
-    padding: $spacing-small;
+    padding: $spacing-large;
+    background:transparent;
    
+    &-color > a{
+        color: $dark-blue;
+        font-weight: 400;
+    }
 }
 
 
@@ -79,9 +86,9 @@ body{
 //Hover effect
 .title-hover{
     &:hover{
-        color: $dark-blue;
+        color: black;
         &:active{
-            color:$dark-blue;
+            color:black;
         }
     }
 }
