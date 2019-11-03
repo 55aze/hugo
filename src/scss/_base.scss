@@ -15,7 +15,7 @@ body{
             background: transparent;
         }
         &-thumb {
-            background: $dark-blue;
+            background: white;
         }
     }
    
@@ -63,7 +63,7 @@ body{
     background:transparent;
    
     &-color > a{
-        color: $dark-blue;
+        color: $primary-color;
         font-weight: 400;
     }
 }
@@ -71,7 +71,7 @@ body{
 
 //Single project
 .project-title{
-    background: $dark-blue;
+    background: $black;
 }
 
 .project-image{
@@ -119,7 +119,7 @@ body{
             height: 100%;
         }
         &:active{
-            color:$dark-blue;
+            color:$black;
         }
     }
     
@@ -225,7 +225,7 @@ body{
         font-weight: 700;
         font-size:$font-size-2;
         font-family: $font-ezcar;
-        color:$dark-blue;
+        color:$black;
         margin: $spacing-extra-extra-large 0 0 0;
     }
     h4{

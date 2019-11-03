@@ -2,6 +2,12 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,700');
 @import url('https://fonts.googleapis.com/css?family=Eczar:400,700');
 
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700|Spectral:400,700&display=swap');
+
+
+
+$font-karla: Karla, sans-serif;
+$font-spectral: Spectral, serif;
 
 
 $font-mono: Overpass Mono, sans-serif;
@@ -16,6 +22,21 @@ $font-ezcar: Eczar, serif;
     font-weight: normal;
     font-style: normal;
   }
+
+.karla{
+    font-family: $font-karla;
+    &-400{
+    font-weight: 400;}
+    &-700{
+        font-weight: 700;}
+}
+.spectral{
+    font-family: $font-spectral;
+    &-400{
+        font-weight: 400;}
+    &-700{
+        font-weight: 700;}
+}
 
 
 .mono{
