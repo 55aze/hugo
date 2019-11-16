@@ -1,14 +1,18 @@
-<footer id= "footer" class="tc tl-ns cf bg-dark-blue">
-    <div class="ph3 ph5-ns pv5 w-70-l w-100 fl-ns fn">
-        <div class="f4-ns f6 avenir fw2 white mb3">
+<footer id= "footer" class="tc tl-ns cf">
+   
+     <div class="fl-ns fn">
+         <img src="img/footer.svg"  alt="footer">
+     </div>
+    <div class="fr-ns fn">
+        <div class="f4-ns f6 h1 fw2 black mb3">
             Say Hi to Me:
         </div>
-        <a href="mailto:" class="bn dim link fw8 f2-ns f4 lh-solid white eczar ">{{ $.Site.Params.email}}</a>
+        <a href="mailto:" class="bn dim link fw8 f2-ns f4 lh-solid eczar ">{{ $.Site.Params.email}}</a>
     </div>
         
         <!-- <div><iframe src="img/gif.gif" frameBorder="0"></iframe></div> -->
-
-    <div class="ph5 pl4-l pv5 w-30-l w-100 fr-ns fn bg-black" >
+<!-- 
+    <div class="ph5 pl4-l pv5 w-30-l w-100 bg-black" >
         <div class="f4-ns f6 avenir fw2 white">
                 Contact:
         </div>>
@@ -19,13 +23,13 @@
                         </a>
                     {{end}}
                 </ul>
-        </div>
-        <div class="f7 mt4 ttc lh-solid avenir near-white">
+        </div> 
+        <div class="f7 mt4 ttc lh-solid avenir">
                 {{ with .Site.Params.copyright }}
                 {{ . | safeHTML }}
                 {{ end }}
         </div>
-    </div>
+    </div> -->
 
     <!-- google analytics -->
     {{ if in (.Site.BaseURL | string) "www.yaorong-li.com" }}
