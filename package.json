@@ -24,15 +24,15 @@
   "devDependencies": {
     "del": "^3.0.0",
     "gh-pages": "^1.1.0",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-autoprefixer": "^4.0.0",
+    "gulp-cli": "^1.4.0",
     "gulp-hash": "^4.1.1",
     "gulp-sass": "^3.1.0",
     "hugo": "0.0.3"
   },
   "dependencies": {
     "animejs": "^2.2.0",
-    "gulp-cli": "^1.4.0",
     "loaders.css": "^0.1.2",
     "normalize-scss": "^7.0.0",
     "npm-css": "^0.2.3",
