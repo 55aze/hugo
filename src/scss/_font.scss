@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Overpass+Mono');
-@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,700');
-@import url('https://fonts.googleapis.com/css?family=Eczar:400,700');
+
 
 @import url('https://fonts.googleapis.com/css?family=Karla:400,700|Spectral:400,700&display=swap');
 
@@ -9,49 +7,105 @@
 $font-karla: Karla, sans-serif;
 $font-spectral: Spectral, serif;
 
+$weight-normal: 400;
+$weight-heavy: 700;
 
-$font-mono: Overpass Mono, sans-serif;
-$font-work: Work Sans, sans-serif;
-$font-Calson: casloncp, serif;
-$font-ezcar: Eczar, serif;
 
-@font-face {
-    font-family: 'casloncp';
-    src: url('https://cdn.rawgit.com/55aze/hugo/master/src/font/casloncp-webfont.woff2') format('woff2'),
-         url('https://cdn.rawgit.com/55aze/hugo/master/src/font/casloncp-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-  }
 
-.karla{
-    font-family: $font-karla;
-    &-400{
-    font-weight: 400;}
-    &-700{
-        font-weight: 700;}
+// $font-mono: Overpass Mono, sans-serif;
+// $font-work: Work Sans, sans-serif;
+// $font-Calson: casloncp, serif;
+// $font-ezcar: Eczar, serif;
+
+// @font-face {
+//     font-family: 'casloncp';
+//     src: url('https://cdn.rawgit.com/55aze/hugo/master/src/font/casloncp-webfont.woff2') format('woff2'),
+//          url('https://cdn.rawgit.com/55aze/hugo/master/src/font/casloncp-webfont.woff') format('woff');
+//     font-weight: normal;
+//     font-style: normal;
+//   }
+
+// .karla{
+//     font-family: $font-karla;
+//     &-400{
+//     font-weight: 400;}
+//     &-700{
+//         font-weight: 700;}
+// }
+// .spectral{
+//     font-family: $font-spectral;
+//     &-400{
+//         font-weight: 400;}
+//     &-700{
+//         font-weight: 700;}
+// }
+
+
+// .mono{
+//     font-family: $font-mono;
+// }
+
+// .calson{
+//     font-family: $font-Calson;
+// }
+// .work{
+//     font-family: $font-work;
+// }
+// .eczar{
+//     font-family: $font-ezcar;
+// }
+
+
+h1,h2,h3,body,.caption,.body-s{
+    font-family:  $font-karla;
 }
-.spectral{
+h1,h2,h3,.display {
+    font-weight: $weight-heavy;
+    &-400{
+        font-weight: $weight-normal;}
+}
+body,.caption,.body-s {
+    font-weight: $weight-normal;
+    &-700{
+        font-weight: $weight-heavy;}
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 64px;
+}
+
+h2 {
+    font-size: 32px;
+    line-height: 48px;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.caption {
+    text-transform: capitalize; 
+}
+
+body,.caption {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.body-s{
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.display {
+    font-size: 88px;
+    line-height: 120px;
     font-family: $font-spectral;
-    &-400{
-        font-weight: 400;}
-    &-700{
-        font-weight: 700;}
 }
 
 
-.mono{
-    font-family: $font-mono;
-}
-
-.calson{
-    font-family: $font-Calson;
-}
-.work{
-    font-family: $font-work;
-}
-.eczar{
-    font-family: $font-ezcar;
-}
 
 //style
 .outline{
