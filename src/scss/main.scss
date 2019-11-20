@@ -1,9 +1,18 @@
-//@import "../../node_modules/tachyons-sass/tachyons.scss";
+@import "../../node_modules/tachyons-sass/tachyons.scss";
 @import "vars";
-@import "base";
 @import "layout";
 @import "font";
+@import "base";
 
 
     
 
+#About{
+
+    height: 100vh;
+   
+    @include break(not-small) {
+       height: auto;
+    }
+    
+}

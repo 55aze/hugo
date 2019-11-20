@@ -1,33 +1,27 @@
 @import "vars";
 @import "font";
+@import "layout";
 @import "../../node_modules/loaders.css/src/loaders.scss";
 
 
 body{
     width: 100%;
-    text-align: center;
-    &::-webkit-scrollbar {
-        width: 8px;
-        height: 16px;
-        overflow: visible;
-        background: transparent;
-        &-track{
-            background: transparent;
-        }
-        &-thumb {
-            background: white;
-        }
-    }
-   
-
-}
-
-.wrapper{
-    max-width: $max-window;
-    min-width: $min-window;
+    background-color: $grey-20;
     text-align: left;
-    margin: 0 auto;
+    // &::-webkit-scrollbar {
+    //     width: 8px;
+    //     height: 16px;
+    //     overflow: visible;
+    //     background: transparent;
+    //     &-track{
+    //         background: transparent;
+    //     }
+    //     &-thumb {
+    //         background: white;
+    //     }
+    // }
 }
+
 
 
 .in-progress{
@@ -45,228 +39,249 @@ body{
         animation: blink 1s infinite;
     }
 }
+// Work/Worklist
+
+.work-list{
+   margin: 64px -32px;
+    @include break(not-small) {
+       margin:0 0 128px 0;
+    }
+}
+
 
 //fixed header
 
 .nav-top{
-    transition: all 0.4s ease; 
-    width:100%;
+    transition: all 0.4s ease;
+    padding: 24px 0 0 0;  
+    @include break(not-small) {
+        transition: all 0.4s ease;
+        padding: 24px 0 0 0;  
+        display: block;  
+    }
+     display: flex;
+     justify-content: space-around;
+    a{
+        flex: 1
+    }
 }
 .fix-nav {
     position: fixed;
     width:100%;
     top: 0px;
-    right:0;
+    padding: 24px;
+    left:0;
     transition: all 0.4s ease;
     z-index: 1000;
-    padding: $spacing-large;
-    background:transparent;
-   
-    &-color > a{
-        color: $primary-color;
-        font-weight: 400;
-    }
+    background: rgba(245, 245, 245, 0.8);
+    backdrop-filter: blur(3px);
 }
 
+.nav-close {
+    margin-right: -64px;
+}
+.nav-back {
+   position: fixed;
+   right:0;
+   top:0;
+}
 
 //Single project
 .project-title{
-    background: $black;
+    z-index: 2;
 }
 
 .project-image{
-    right: 0;
-    top:0;
-    width: 60%;
+    object-fit: cover;  
+    height: 400px;
+    width:100%;
     z-index: -1;
 }
 
-
-
-//Hover effect
-.title-hover{
-    &:hover{
-        color: black;
-        &:active{
-            color:black;
-        }
-    }
+.project-header {
+    min-height: 40vh;
+    margin-right: -$spacing-96;
 }
 
 
 
+// //Hover effect
+// .title-hover{
+//     &:hover{
+//         color: black;
+//         &:active{
+//             color:black;
+//         }
+//     }
+// }
 
-.pink-hover, .project-content a{
+
+
+.line-hover,.project-content a{
     position: relative;
-    text-decoration: none;
-    border-bottom: 1px dashed $washed-red;
+
     &::after{
         position: absolute;
         content: "";
-        width: 100%;
-        height: 0%;
-        bottom: 0;
+        height:3px;
+        background: $green-20;
+        width: 0%;
         left: 0;
-        z-index: -1;
-        background:$washed-red;
-        transition: height 0.3s ease;
-
+        bottom: 0px;
+        transform-origin: 0 0;
+        
+        transition: width 0.2s ease-in;
     }
 
     &:hover{
-        color:white;
+        bottom:3px;
+        border:none;
         &::after{
-            height: 100%;
-        }
-        &:active{
-            color:$black;
+            width: 100%;
+            right: 0;
         }
     }
     
 }
 
-.inline-hover{
-    position: relative;
-    transition: font-weight 1s ease;   
-    text-decoration:none; 
-    border-bottom: none;
-    
-    &::before{
-        content: '';
-        position: absolute;
-        top: calc(50%);
-        left:0; 
-        width:100%;
-        height: 2px;
-        transform: scale(0,1);        
-        background: white;
-        transition: all 1s ease;
-    }
-
-    &:hover, &:active{  
-        text-decoration:none; 
-        &::before{
-            transform: scale(1,1);
-            transition: all 1s ease;
-        }
-    }
-
-    
+.line-hover-inline,.project-content a {
+    border-bottom: 3px dashed $green-20;
 }
 
-.blue-hover {
-    span{
-        z-index: 0;
-        transform: translateX(0px);
-        transition: all .5s ease;
+
+// aboutme
+.intro {
+    @include break(not-small) {
+        width: 70%;
+        margin:  64px auto;
     }
-    &::before{
-        content: '';
-        position: absolute;
-        top:0;
-        left:0; 
-        width:100%;
-        height: 100%;
-        opacity: 0;
-        background-color: $white;
-        box-shadow: 0px 11px 33px -9px rgba(19, 19, 107, 0.87);
-        transition: opacity .5s ease;
-        z-index: -1;
-    }
-
-    &:hover {
-
-        span{
-            z-index: 100;
-            color: white;
-            transform: translateX(20px);
-            transition: all .5s ease;
-        }
-    
-        &::before{
-            opacity: 0.9;
-            transition: opacity .5s ease;
-        }
-
-        &::after{
-            content: '👉';
-            position: absolute;
-            top:49%;
-            right:10%; 
-            z-index: 100;
-        }
-
-    }
+        width: 110%;
+        margin:  64px auto;
 }
+
+
+// .inline-hover{
+//     position: relative;
+//     transition: font-weight 1s ease;   
+//     text-decoration:none; 
+//     border-bottom: none;
+    
+//     &::before{
+//         content: '';
+//         position: absolute;
+//         top: calc(50%);
+//         left:0; 
+//         width:100%;
+//         height: 2px;
+//         transform: scale(0,1);        
+//         background: white;
+//         transition: all 1s ease;
+//     }
+
+//     &:hover, &:active{  
+//         text-decoration:none; 
+//         &::before{
+//             transform: scale(1,1);
+//             transition: all 1s ease;
+//         }
+//     }
+
+    
+// }
+
+// .blue-hover {
+//     span{
+//         z-index: 0;
+//         transform: translateX(0px);
+//         transition: all .5s ease;
+//     }
+//     &::before{
+//         content: '';
+//         position: absolute;
+//         top:0;
+//         left:0; 
+//         width:100%;
+//         height: 100%;
+//         opacity: 0;
+//         background-color: $white;
+//         box-shadow: 0px 11px 33px -9px rgba(19, 19, 107, 0.87);
+//         transition: opacity .5s ease;
+//         z-index: -1;
+//     }
+
+//     &:hover {
+
+//         span{
+//             z-index: 100;
+//             color: white;
+//             transform: translateX(20px);
+//             transition: all .5s ease;
+//         }
+    
+//         &::before{
+//             opacity: 0.9;
+//             transition: opacity .5s ease;
+//         }
+
+//         &::after{
+//             content: '👉';
+//             position: absolute;
+//             top:49%;
+//             right:10%; 
+//             z-index: 100;
+//         }
+
+//     }
+// }
 
   
 //default style
 .project-content{
 
-   padding: 0 12.5%;
-   margin: 0 auto;
-
-    @media screen and (min-width: 968px) {
+    // @media screen and (max-width: 968px) {
     
-        padding: 0 25%;
-    
-        margin: 0 auto;
-    }
+    //     padding: 0 20%; 
+    //     margin: 0 auto;
+    // }
     
 
-    @media screen and (max-width: 480px) {
+    // @media screen and (max-width: 480px) {
        
-        padding: 0 5%;
-        margin: 0 auto;
+    //     padding: 0 5%;
+    //     margin: 0 auto;
+    // }
+
+    h2,h3,h4,p{
+        color: $grey-80;
     }
 
-    // h1{
-    //     line-height: $line-height-copy;
-    //     font-weight: 700;
-    //     font-size:$font-size-2;
-    //     font-family: $font-ezcar;
-    //     color:$black;
-    //     margin: $spacing-extra-extra-large 0 0 0;
-    // }
-    // h4{
-    //     font-size:$font-size-5;
-    //     margin: $spacing-medium 0;
-        
-    // }
-    // p{
-    //     font-size: 18px;;
-    //     font-weight: 300;
-    //     line-height: $line-height-copy;
-    //     margin: $spacing-medium  0;
-    // }
+    h2{
+        margin: $spacing-64 0 0 0;
+    }
+
+
+    h4 {
+        margin: $spacing-24 0 0 0;
+    }
+
+    p {
+        margin: $spacing-24 0 0 0;
+    }
+
 
     ul {
-        margin: $spacing-large  0;
-        li {
-            font-size: 16px;
-            font-weight: 300;
-            color:$black-80;
-            line-height: $line-height-copy;
-        }
-    }
-
-    a {
-        font-weight: 400;
+        margin: $spacing-24 0 0 0;
     }
 
     hr{
-        height: 6px;
-        background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
-        border: 0;
-        margin: $spacing-extra-large 0;
+        height: 0.75px;
+        background-color: $green-20;
+        border: none;
+        margin: $spacing-large 0;
     }
 
-    b,strong{
-        font-weight: 600;
-    }
-    
     figure{
-        margin:$spacing-large  (-$spacing-extra-extra-large);
+        margin: $spacing-large 0 0 0;
         @media screen and (max-width: 968px) {
             margin: 0 auto;
         }
@@ -276,25 +291,40 @@ body{
         }
     }
 
+  
+    
     .image-gallery{
-        margin:$spacing-extra-large  (-$spacing-extra-large);
-
+    
+    margin:$spacing-large  (-$spacing-extra-large);
         &-single{
             width:45%;
             padding: $spacing-small;
             display: inline;
         }
     }
+        @include break(not-small) {
+            margin:$spacing-extra-large  0;
+    }
 
     blockquote {
         page-break-inside: avoid;
-        background-color: #f7f7f7;
+        position: relative;
+        margin-left: -$spacing-24;
+        &::before{
+            position: absolute;
+            content: "";
+            width:3px;
+            background: $orange-40;
+            height: 100%;
+            bottom: 0px;
+        }
 
         p{
-            padding: $spacing-medium;
-            font-size: $font-size-5;
-            font-weight: 4;
-            color:$black-80;
+            padding: 0 0 0 $spacing-medium;
+            font-family: $font-spectral;
+            font-size: 24px;
+            line-height: 40px;
+            color:$grey-80;
             font-style: italic;
             margin: $spacing-medium auto $spacing-medium;
         }

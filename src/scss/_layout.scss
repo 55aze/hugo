@@ -1,0 +1,46 @@
+
+@import "vars";
+@import "../../node_modules/loaders.css/src/loaders.scss";
+@import "../../node_modules/tachyons-queries/queries.scss";
+
+// --spacing-none: 0;
+// --spacing-extra-small: .25rem; 4px
+// --spacing-small: .5rem; 8px
+// --spacing-medium: 1rem; 16px
+// --spacing-large: 2rem; 32px
+// --spacing-extra-large: 4rem; 64px
+// --spacing-extra-extra-large: 8rem; 128px
+// --spacing-extra-extra-extra-large: 16rem; 256px
+
+
+
+$spacing-4: 4px; 
+$spacing-8: 8px;
+$spacing-16: 16px;
+$spacing-24: 24px;
+$spacing-32: 32px;
+$spacing-64: 64px;
+$spacing-96: 96px;
+$spacing-160: 160px;
+$spacing-256: 256px;
+
+
+
+$spacing-none:0;
+$spacing-extra-small:$spacing-8;
+$spacing-small:$spacing-16;
+$spacing-medium:$spacing-32;
+$spacing-large:$spacing-64;
+$spacing-extra-large:$spacing-96;
+$spacing-extra-extra-large:$spacing-160;
+$spacing-extra-extra-extra-large:$spacing-256;
+
+
+
+.bg1{
+    position: absolute;
+    top:120px;
+    left:0;
+    z-index: -1;
+}
+

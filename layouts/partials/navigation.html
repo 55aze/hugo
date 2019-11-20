@@ -1,0 +1,9 @@
+
+    <nav class="tl pv3">
+        <img src="/img/logo.svg"  alt="logo">
+        <div class="w-100 nav-top tl-ns tc border-box">
+          {{ range .Site.Params.Navigation.links }}
+              <a class="mr3-ns pv1 pr1-ns line-hover fw4" href="{{ .url}}" >{{ .name}}</a>
+          {{end}}
+        </div>
+    </nav>

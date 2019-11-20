@@ -1,14 +1,14 @@
 {{ define "main" }} 
     <div id="About" name = "About"  >
         <div id= "nav">
-            {{ partial "header.html" . }}
+            {{ partial "navigation.html" . }}
         </div>
-        <div id="headline" class="wrapper">
+        <div id="headline">
             {{ partial "headline.html" . }}        
         </div>
     </div>
 
-    <div id= "Works" name="Works" class="wrapper">
+    <div id= "Works" name="Works">
         <a name = "Works">
             {{ partial "works.html" .}}
         </a>
@@ -19,4 +19,8 @@
     <section id="Contact" name="Contact">
         {{ partial "footer.html" . }}
     </section>
+
+    <!-- <section >
+            {{ partial "copywrite.html" . }}
+        </section> -->
 {{ end }}

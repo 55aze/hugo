@@ -4,26 +4,56 @@ title = "Yaorong"
 
 
 [params]
- copyright = "&copy;2017 coded and designed by yaorong li 🖖"
+ copyright = "&copy;2019 coded and designed by yaorong"
+ picture = "/img/cat.gif"
  email= "55yaorong.li@gmail.com"
- logo= "img/logo.png"
+ logo= "/img/logo.png"
  googleAnalytics = "UA-110677231-2"
 
 
+[params.experience]
+[[params.experience.works]]
+name= "Product designer"
+company= "Adyen"
+time= "2018.05 - Now"
+
+[[params.experience.works]]
+name= "UX designer"
+company= "HERE"
+time= "2017.03 - 2018.04"
+
+[[params.experience.works]]
+name= "Interaction designer work student"
+company= "HERE"
+time= "2016. - 2018.04"
+
+[[params.experience.studies]]
+name= "Msc. Human computer interaction design"
+school= "TU Berlin"
+time= "2015.10 - 2017.03"
+
+[[params.experience.studies]]
+name= "Msc. Human computer interaction design"
+school= "Paris Sud"
+time= "2014.09 - 2015.06"
+
+[[params.experience.studies]]
+name= "Bsc. Electronic engineering"
+school= "BUPT"
+time= "2010.09 - 2014.06"
 
 [params.navigation]
-
-[[params.navigation.links]]
-name = "About"
-url = "#About"
-
 [[params.navigation.links]]
 name = "Works"
-url = "#Works"
+url = "../../"
 
 [[params.navigation.links]]
-name = "Contact"
-url = "#Contact"
+name = "Me"
+url = "../../aboutme/aboutme"
+
+[[params.navigation.links]]
+name = "Email"
+url = "mailto:55yaorong.li@gmail.com"
 
 [params.contact]
 [[params.contact.links]]
@@ -61,6 +91,7 @@ company = "HERE"
 time = "2016.08 till now"
 
 
+
 [[params.work.projects]]
 name = "Izumi Dashboard"
 url = "works/dashboard"
@@ -70,13 +101,15 @@ role = "UX/UI design, User Research"
 company = "HERE"
 
 
+
 [[params.work.projects]]
 name = "Clio"
 url = "works/clio"
 description = "Platform to help manange the process of documentation delivery"
 company = "HERE"
 role ="UX/UI Design, Usibility Testing"
-time = "2017.04 to 2017.07"
+time = "2017.04 till 2017.07"
+
 
 
 

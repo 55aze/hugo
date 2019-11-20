@@ -1,38 +1,40 @@
 
 
-<!-- <div class = "w-100 pa3 avenir fw6 ttc f2-ns f3 white bg-dark-blue" >
-    <marquee>works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp works</marquee> -->
-<!-- <p>who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp who am i? </p>  -->
-<!-- </div> -->
-<div class="mh6-l mh4 mv7-ns mv5 ">
+<div class="mv7-ns mv5">
     <div class="cf">
-    <div class="w-30-l fl">
-        <h1 class="avenir dark-blue f2 mb3-ns fw6">
-                Featured Works
-        </h1>
-        <div class="f4-ns f6 i fw2 black-50 lh-title mb7-ns mb6">                  
-                Users are impatient and distracted, I'm thinking in their shoes to deliver simple, clean and functional design; in the meantime, design should be iterative and feasible, I'm prototyping my design to test and improve my ideas from time to time.
-        </div>
+    <div class="w-30-l fl mb3">
+        <h3>
+            Featured Works
+        </h3>
+        <p class="body-s fw3">                  
+            Users are impatient and distracted, I'm thinking in their shoes to deliver simple, clean and functional design; in the meantime, design should be iterative and feasible, I'm prototyping my design to test and improve my ideas from time to time.
+        </p>
     </div>
 
     <div class="w-60-l fr">
     {{ range .Site.Params.Work.projects }}
-    <div class= "relative pb6-ns pb5">
-                <a class="dark-blue link title-hover cf eczar f2-ns f3 db fw6" href="{{.url}}"> 
-                        {{ .name}}: {{ .description}}
-                </a>
-                <div class="avenir fw4 f5-ns f6 lh-copy black-80 pt3">
-                    {{ .role}} &nbsp &nbsp {{ .time}}
-                    <a class="avenir washed-red ml3  link pink-hover" href="https://www.here.com/en">
-                        {{ .company}}
-                    </a>
-                </div>
+        <div class= "work-list">
+            <a class="mb0" href="{{.url}}">
+                <img src="img/test 1.svg" >
+                <div class="ph3">
+                        <h2 class="mv0">
+                            {{ .name}}: <span class="fw3">{{ .description}}<span>
+                        </h2>
+                        <div class="mt2">
+                                {{ .role}}
+                             <!-- {{ .role}} &nbsp &nbsp &nbsp {{ .time}}
+                            <a class="ml2 line-hover" href="https://www.here.com/en">
+                             {{ .company}}
+                            </a> -->
+                        </div>
+                    </div>
+             </a>       
          </div> 
         {{ end }}
     </div>
 </div>
-    <div class="f2 dark-blue avenir mv5 fw6 tl">
-            More works...
-    </div>
+    <h3 class="mv5">
+            Student work
+    </h3>
 </div>
 

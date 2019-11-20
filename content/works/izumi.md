@@ -7,7 +7,7 @@ company: "HERE"
 description: " Design one workspace for different users"
 image: "izumi1"
 ---
-# What is Izumi?
+## What is Izumi?
 
 Early last Spring, I started my full-time career as a Designer in [HERE](https://www.here.com/en), which provides map services to millions of users all over the world both on their [Phones](https://play.google.com/store/apps/details?id=com.here.app.maps&hl=en) or in their cars. 
 
@@ -15,7 +15,7 @@ In such a big international company, **Izumi** is the tool designed to properly 
 
 With hundreds of users from both HERE employee to external Localisation agencies work on this platform on the daily base, it is crucial to take into consideration users in the first place.
 
-# Team setting
+## Team setting
 #### Agile and iterative
 
 - 6 developers 
@@ -27,9 +27,9 @@ With hundreds of users from both HERE employee to external Localisation agencies
 I'm the only designer here in the team, I closely work with peoples from different backgrounds: Front-end experts, business expert and also localisation experts. Also, I'm part of the design community, peer review is also a really good chance to learn from other designers.
 
 
-----------
+---
 
-# What is Izumi Editview ?
+## What is Izumi Editview ?
 
 As a localisation platform, Izumi Editview is the most used page in users daily life. Below is a simplified lifecycle of localisation process, you could see that the highlighted parts are all done in Editview:
 
@@ -37,20 +37,20 @@ As a localisation platform, Izumi Editview is the most used page in users daily 
 
 
 
-# What did I inherit?
+## What did I inherit?
 
 {{< img src="/img/works/izumi2.png" class="popup pointer" >}}
 
 {{< img src="https://memegenerator.net/img/instances/400x/65613242/this-is-my-confused-face.jpg" >}}
 
 
-#### Wow! Such a long menu on the top, but... as a translator, I just care about where can I finish my translation work !?
+> Wow! Such a long menu on the top, but... as a translator, I just care about where can I finish my translation work !?
 
 So the biggest issue here is that this page is designed for **EVERYBODY**, from editors, copywriters, developers ... to translator and tester. Everybody looks at the exact same interface and struggle to finish their work here.
 
-----------
+---
 
-# Research First!
+## Research First!
 #### Who is your user and what do they want?
 
 I talked with 6 peoples, at least 1 representative in each role, including HERE employees and external agencies users, trying to not only took down their complaints about Editview but also observe what’s their natural behaviours and opinions while working.
@@ -62,7 +62,7 @@ I talked with 6 peoples, at least 1 representative in each role, including HERE 
 - Managers want to have an overview of localisation process which is unclear in current Izumi
 
 
-# Limitations and design brief
+## Limitations and design brief
 
 I presented these research findings with developers and localisation managers, we distinguished some limitations and wrote down the design brief:
 
@@ -74,8 +74,8 @@ I presented these research findings with developers and localisation managers, w
 - Improve the overall look and feel to make it looks consistent and clean
 
 
-----------
-# Ideation
+---
+## Ideation
 
 To help users focus on their own tasks, we tried to categorize izumi workflow in 3 different stages:
 
@@ -87,7 +87,7 @@ To help users focus on their own tasks, we tried to categorize izumi workflow in
 
 Depending on different user roles, people will see different user interface which help them only to only focus on their tasks. 
 
-# UI Design
+## UI Design
 
 I worked with front-end developer together created an universal style guide called "[kao](/works/kao)", which contains style, atomics and react-based components.
 
@@ -106,7 +106,7 @@ A good design system really helped me to smoothly communicate with developers an
 
 
 
-# Test and Iterations 
+## Test and Iterations 
 
 After deployed this new version of edit view, I sat with several HERE designers and copywriter when they were using Izumi edtiview to finish their work. In general users are happy with this refreshment, still they're complaing it requires a lot of tedious and manual work. 
 
