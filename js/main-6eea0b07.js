@@ -12,12 +12,13 @@ $(document).ready(function(){
       } else {
         nav.removeClass("fix-nav");
       }
-      if ($(this).scrollTop() > $(window).height()) {
-        nav.addClass("fix-nav-color");
-      } else {
-        nav.removeClass("fix-nav-color");
-      }
+      // if ($(this).scrollTop() > $(window).height()) {
+      //   nav.addClass("fix-nav-color");
+      // } else {
+      //   nav.removeClass("fix-nav-color");
+      // }
     });
+
 
   //smooth scroll
   $(document).on('click', 'a[href^="#"]', function (event) {
@@ -35,11 +36,11 @@ $(document).ready(function(){
         var currLink = $(this);
         var refElement = $(currLink.attr("href"));
         if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
-            $('#nav nav div a').removeClass("active");
-            currLink.addClass("active");
+            $('#nav nav div a').removeClass("nav-selected");
+            currLink.addClass("nav-selected");
         }
         else{
-            currLink.removeClass("active");
+            currLink.removeClass("nav-selected");
         }
       });
     }

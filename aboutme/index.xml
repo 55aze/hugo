@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aboutmes on Yaorong</title>
+    <link>www.yaorongli.com/aboutme/</link>
+    <description>Recent content in Aboutmes on Yaorong</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy;2019 coded and designed by yaorong</copyright>
+    
+	<atom:link href="www.yaorongli.com/aboutme/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>aboutme</title>
+      <link>www.yaorongli.com/aboutme/aboutme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>www.yaorongli.com/aboutme/aboutme/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

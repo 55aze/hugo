@@ -2,51 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Works on Yaorong</title>
-    <link>www.yaorong-li.com/works/</link>
+    <link>www.yaorongli.com/works/</link>
     <description>Recent content in Works on Yaorong</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy;2017 coded and designed by yaorong li 🖖</copyright>
+    <copyright>&amp;copy;2019 coded and designed by yaorong</copyright>
     
-	<atom:link href="www.yaorong-li.com/works/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="www.yaorongli.com/works/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Clio</title>
-      <link>www.yaorong-li.com/works/clio/</link>
+      <title>Adyen for platforms</title>
+      <link>www.yaorongli.com/works/adyen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>www.yaorong-li.com/works/clio/</guid>
+      <guid>www.yaorongli.com/works/adyen/</guid>
+      <description>Adyen for platforms is an all-in-one solution for any platform business models to easily onboard users, move funds and payout to users. May in 2018, I joined the team as a product designer. With a background in designing and engineering, I have always been passionate about simplifying complex technical problems through thoughtful design solutions. I&amp;rsquo;m working on several projects to improve the experience for platfrom business owners, following by I will walk through several key projects I&amp;rsquo;ve been working on.</description>
+    </item>
+    
+    <item>
+      <title>Clio</title>
+      <link>www.yaorongli.com/works/clio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>www.yaorongli.com/works/clio/</guid>
       <description>Background HERE provides APIs and SDKs for maps and location-aware web and mobile apps. In order to better support our customers, we built up a documentation platform allow devlopers to easily get desired information. Here is an example: &amp;ldquo;HERE Developer Portal&amp;ldquo;
 Since hundreds of products are constantly updating their documentations, developers in documentation team built up a self-managable platfrom which allows each individual product team effectively track their own documentations, product versions and target markets.</description>
     </item>
     
     <item>
-      <title>Izumi Dashboard</title>
-      <link>www.yaorong-li.com/works/dashboard/</link>
+      <title>Izumi</title>
+      <link>www.yaorongli.com/works/izumi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>www.yaorong-li.com/works/dashboard/</guid>
-      <description>What is Izumi? Early last Spring, I started my full-time career as a Designer in HERE, which provides map services to millions of users all over the world both on their Phones or in their cars.
-In such a big international company, Izumi is the tool designed to properly localise our products, in able to reach out all our users in every corner of the world. I&amp;rsquo;m the Product Designer specialised in user experience for such a platform.</description>
-    </item>
-    
-    <item>
-      <title>Izumi EditView</title>
-      <link>www.yaorong-li.com/works/izumi/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>www.yaorong-li.com/works/izumi/</guid>
-      <description>What is Izumi? Early last Spring, I started my full-time career as a Designer in HERE, which provides map services to millions of users all over the world both on their Phones or in their cars.
-In such a big international company, Izumi is the tool designed to properly localise our products, in able to reach out all our users in every corner of the world. I&amp;rsquo;m the Product Designer specialised in user experience for such a platform.</description>
+      <guid>www.yaorongli.com/works/izumi/</guid>
+      <description>What is Izumi? Early 2017, I started my full-time job as a UX Designer in HERE. For a big international company,it is critical to make the products accessible to users across the world. Izumi is the tool we&amp;rsquo;ve built internally to help designers and external agencies to manage and monitor product localisation workflow. With hundreds of users with more than 7 different roles working actively on this platform on a daily base, it is crucial to put users&amp;rsquo; needs in the first place.</description>
     </item>
     
     <item>
       <title>Kao</title>
-      <link>www.yaorong-li.com/works/kao/</link>
+      <link>www.yaorongli.com/works/kao/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>www.yaorong-li.com/works/kao/</guid>
+      <guid>www.yaorongli.com/works/kao/</guid>
       <description>Design system You probably heard about design system, it seems like everybody in the design industry are talking about it now. It goes beyond traditional style guidelines by incoperating designs with creative technologiest to bulid up a sets of resuable components, guided by clear standards and can be assemble to implement any type of applciations.
 When I first joined the team, all our apps were built based on an open-source frameworks &amp;ndash; react-bootstrap.</description>
     </item>

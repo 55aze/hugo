@@ -3,39 +3,48 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>www.yaorong-li.com/categories/</loc>
+    <loc>www.yaorongli.com/aboutme/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>www.yaorong-li.com/works/clio/</loc>
+    <loc>www.yaorongli.com/works/adyen/</loc>
   </url>
   
   <url>
-    <loc>www.yaorong-li.com/works/dashboard/</loc>
-  </url>
-  
-  <url>
-    <loc>www.yaorong-li.com/works/izumi/</loc>
-  </url>
-  
-  <url>
-    <loc>www.yaorong-li.com/works/kao/</loc>
-  </url>
-  
-  <url>
-    <loc>www.yaorong-li.com/tags/</loc>
+    <loc>www.yaorongli.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>www.yaorong-li.com/works/</loc>
+    <loc>www.yaorongli.com/works/clio/</loc>
+  </url>
+  
+  <url>
+    <loc>www.yaorongli.com/works/izumi/</loc>
+  </url>
+  
+  <url>
+    <loc>www.yaorongli.com/works/kao/</loc>
+  </url>
+  
+  <url>
+    <loc>www.yaorongli.com/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>www.yaorong-li.com/</loc>
+    <loc>www.yaorongli.com/works/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>www.yaorongli.com/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>www.yaorongli.com/aboutme/aboutme/</loc>
   </url>
   
 </urlset>
