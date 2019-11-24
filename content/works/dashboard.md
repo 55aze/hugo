@@ -1,6 +1,6 @@
 ---
 title: "Izumi Dashboard"
-draft: false
+draft: true
 role: "UX/UI Design, User research"
 time: "2017.12 till 2018.02"
 company: "HERE"

@@ -1,19 +1,15 @@
 ---
-title: "Izumi EditView"
+title: "Izumi"
 draft: false
 role: "UX/UI Design"
-time: "2017.08 to 2017.11"
+time: "2017.08 to 2018.03"
 company: "HERE"
-description: " Design one workspace for different users"
+description: "Build consistent workflow to localize digital products"
 image: "izumi1"
 ---
 ## What is Izumi?
 
-Early last Spring, I started my full-time career as a Designer in [HERE](https://www.here.com/en), which provides map services to millions of users all over the world both on their [Phones](https://play.google.com/store/apps/details?id=com.here.app.maps&hl=en) or in their cars. 
-
-In such a big international company, **Izumi** is the tool designed to properly localise our products, in able to reach out all our users in every corner of the world. I'm the Product Designer specialised in user experience for such a platform. 
-
-With hundreds of users from both HERE employee to external Localisation agencies work on this platform on the daily base, it is crucial to take into consideration users in the first place.
+Early 2017, I started my full-time job as a UX Designer in [HERE](https://www.here.com/en). For a big international company,it is critical to make the products accessible to users across the world. **Izumi** is the tool we've built internally to help designers and external agencies to manage and monitor product localisation workflow. With hundreds of users with more than 7 different roles working actively on this platform on a daily base, it is crucial to put users' needs in the first place.
 
 ## Team setting
 #### Agile and iterative
@@ -21,10 +17,10 @@ With hundreds of users from both HERE employee to external Localisation agencies
 - 6 developers 
 - 1 product owner
 - 3 localisation managers (experts in internationalisation)
-- 1 designer (**ME**)
+- 1 designer (Me)
 - 2-week sprint, daily stand up catch up
 
-I'm the only designer here in the team, I closely work with peoples from different backgrounds: Front-end experts, business expert and also localisation experts. Also, I'm part of the design community, peer review is also a really good chance to learn from other designers.
+As the only designer in the team, I worked closely with people from different backgrounds: Front-end experts, business experts and localisation experts. Also, I'm part of the design community, peer review is also a really good chance to learn from other designers.
 
 
 ---

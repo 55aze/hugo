@@ -74,31 +74,46 @@ url="https://github.com/55aze/hugo/blob/master/src/cv.pdf"
 
 [params.work]
 [[params.work.projects]]
+name = "Adyen for platforms"
+url = "works/adyen"
+description = "Shaping payment experience for marketplaces"
+role = "UX/UI Design, User Research"
+time = "2018.05 to now"
+company = "Adyen"
+cover = "adyen-cover"
+
+[[params.work.projects]]
 name = "Izumi Editview"
 url = "works/izumi"
-description = "Design one workspace for different users"
-role = "UX/UI Design, User persona, User Research"
+description = "One workspace for different users"
+role = "UX/UI Design, User Research"
 time = "2017.08 to 2017.11"
 company = "HERE"
+cover = "adyen-cover"
+
 
 
 [[params.work.projects]]
 name = "Kao"
 url = "works/kao"
-role = "UI Design, Summarize Design pattern"
+role = "UI Design, Documentation design system"
 description = "Create a consistent and convenient design system"
 company = "HERE"
-time = "2016.08 till now"
+time = "2016.08 till 2018.03"
+cover = "adyen-cover"
+
 
 
 
 [[params.work.projects]]
 name = "Izumi Dashboard"
 url = "works/dashboard"
-description = "Design a better navigation system"
-time = "2017.12 till now"
+description = "A better navigation system for complicated workflow"
+time = "2017.12 till 2018.03"
 role = "UX/UI design, User Research"
 company = "HERE"
+cover = "adyen-cover"
+
 
 
 
@@ -109,6 +124,8 @@ description = "Platform to help manange the process of documentation delivery"
 company = "HERE"
 role ="UX/UI Design, Usibility Testing"
 time = "2017.04 till 2017.07"
+cover = "adyen-cover"
+
 
 
 

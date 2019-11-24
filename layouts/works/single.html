@@ -3,9 +3,9 @@
     {{ partial "header-back.html" . }}
    </section>
   
-   <section class="project-header ml4 mb6 mt3">
+   <section class="project-header ml4 mb6">
       <div class="tr">
-          <img class= "project-image" src = "/img/works/{{ .Params.image}}.png"/>
+          <img class= "project-image br3-ns br0" src = "/img/works/{{ .Params.image}}.png"/>
        </div>
       <div class="project-title mt2">
         <h2 class="mv0">
@@ -17,15 +17,15 @@
       </div>
       <div class="mt4 flex">
         <div class="w-20-ns w-100 mr3">
-            <p class="caption mv0 f5 fw6 grey-70">Roles</p>
+            <p class="caption mv0 f5 fw6">Roles</p>
             <p class="mv0">{{ .Params.Role}} </p>
         </div>
         <div class="w-20-ns w-100 mr3">
-            <p class="caption mv0 f5 fw6 grey-70">Time</p>
+            <p class="caption mv0 f5 fw6">Time</p>
             <p class="mv0">{{ .Params.Time}} </p>
         </div>
         <div class="w-20-ns w-100">
-            <p class="caption mv0 f5 fw6 grey-70">Company</p>
+            <p class="caption mv0 f5 fw6">Company</p>
             <a class="line-hover-inline" href="https://www.here.com/en">{{ .Params.Company}} </p>
            </a> 
         </div>
@@ -34,7 +34,7 @@
    </section>
 
     <section class="cf project-content" id = "content">
-      <div class="w-70-ns fr-ns">
+      <div class="w-60-ns fr-ns">
         {{ .Content}}
       </div>
     </section>

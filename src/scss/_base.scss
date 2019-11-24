@@ -85,6 +85,11 @@ body{
    right:0;
    top:0;
 }
+.nav-selected {
+    &::before{
+        width: 100% !important;
+    }
+}
 
 //Single project
 .project-title{
@@ -124,28 +129,43 @@ body{
         position: absolute;
         content: "";
         height:3px;
-        background: $green-20;
+        background: $grey-20;
         width: 0%;
         left: 0;
         bottom: 0px;
-        transform-origin: 0 0;
-        
+        z-index: 2;
+        transition: width 0.2s ease-in;
+        transition-delay: 0.2s;
+    }
+
+    &::before{
+        position: absolute;
+        content: "";
+        height:3px;
+        background: $green-40;
+        width: 0;
+        left: 0;
+        bottom: 0px;
         transition: width 0.2s ease-in;
     }
 
     &:hover{
-        bottom:3px;
+        bottom:5px;
         border:none;
         &::after{
             width: 100%;
-            right: 0;
+        }
+        &::before{
+            width: 100%;
         }
     }
     
 }
 
 .line-hover-inline,.project-content a {
-    border-bottom: 3px dashed $green-20;
+    &::before{
+        width: 20px;
+    }
 }
 
 
@@ -281,7 +301,7 @@ body{
     }
 
     figure{
-        margin: $spacing-large 0 0 0;
+        margin: $spacing-large 0 0 -60%;
         @media screen and (max-width: 968px) {
             margin: 0 auto;
         }
@@ -405,12 +425,12 @@ body{
 @keyframes fadeInUp{
     0%{
         opacity: 0;
-        transform: translate3d(0, 100%, 0);        
+        transform: translate3d(0, 10px, 0);        
     }
 
     100%{
         opacity:1;
-        transform: none;        
+        transform: translate3d(0,0,0);        
     }
 }
 

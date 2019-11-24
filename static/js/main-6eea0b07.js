@@ -19,6 +19,7 @@ $(document).ready(function(){
       // }
     });
 
+
   //smooth scroll
   $(document).on('click', 'a[href^="#"]', function (event) {
     event.preventDefault();
@@ -35,11 +36,11 @@ $(document).ready(function(){
         var currLink = $(this);
         var refElement = $(currLink.attr("href"));
         if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
-            $('#nav nav div a').removeClass("active");
-            currLink.addClass("active");
+            $('#nav nav div a').removeClass("nav-selected");
+            currLink.addClass("nav-selected");
         }
         else{
-            currLink.removeClass("active");
+            currLink.removeClass("nav-selected");
         }
       });
     }
