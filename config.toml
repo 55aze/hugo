@@ -89,7 +89,7 @@ description = "One workspace for different users"
 role = "UX/UI Design, User Research"
 time = "2017.08 to 2017.11"
 company = "HERE"
-cover = "adyen-cover"
+cover = "Izumi"
 
 
 
@@ -100,7 +100,7 @@ role = "UI Design, Documentation design system"
 description = "Create a consistent and convenient design system"
 company = "HERE"
 time = "2016.08 till 2018.03"
-cover = "adyen-cover"
+cover = "styleguide-cover"
 
 
 
@@ -112,7 +112,7 @@ description = "A better navigation system for complicated workflow"
 time = "2017.12 till 2018.03"
 role = "UX/UI design, User Research"
 company = "HERE"
-cover = "adyen-cover"
+cover = "dashboard-cover"
 
 
 

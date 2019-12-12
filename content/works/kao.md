@@ -8,14 +8,14 @@ description: "A consistent interactive design system"
 image: "kao"
 ---
 
-# Design system
+### Design system
 
 You probably heard about design system, it seems like everybody in the design industry are talking about it now. It goes beyond traditional style guidelines by incoperating designs with creative technologiest to bulid up a sets of resuable components, guided by clear standards and can be assemble to implement any type of applciations. 
 
 
 When I first joined the team, all our apps were built based on an open-source frameworks -- react-bootstrap. For developers it's a really convinient way to reuse as much as possible the code snippts. While it's not highly costomizable, and also not comply with the company branding, so we started with existing components and build up a refreshed design guideline and related interactive react components.
 
-# Inventory then create style guides
+### Inventory then create style guides
 
 I did a complete inventory of the exisiting applications first and took down all the UI elements, trying to distinguish the 50 shades of blue or 20 styles of button. Then I cleaned them up and defined the basic style guide, based on which, I also created atomic elements. Those atomics can be then assembled together to create different components in my design. That's what I called "3 levels of design guideline":
 
@@ -34,10 +34,8 @@ Once the UI legos -- automics are ready, I started to apply them in interface de
 
 {{< img src="/img/works/kao-component.png" class="popup pointer" >}}
 
-# Interactive front-end code snippts
 
-
-# Evolutionary system
+### Evolutionary system
 
 #### Voilà, it's there! But done? No!
 
