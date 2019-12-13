@@ -105,7 +105,11 @@ body{
 
 .project-header {
     min-height: 40vh;
-    margin-right: -$spacing-96;
+    margin-left:0;
+    @include break(not-small) {
+        margin-right: -$spacing-96;
+    }
+   
 }
 
 
