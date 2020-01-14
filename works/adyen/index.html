@@ -2,12 +2,12 @@
 <html lang="en-us">
 <head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Adyen for platforms</title>
+<title>KYC hosted onboarding</title>
 <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
 <script type="text/javascript" src="/js/main-6eea0b07.js"></script>
 <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
-<link rel="stylesheet" href="/css/main-28cb45ce.css" />
+<link rel="stylesheet" href="/css/main-fb336c79.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"/>
 <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 <link rel="icon" href="img/favicon.ico" type="image/x-icon">
@@ -16,6 +16,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
 </head>
 <body>
+    <section id = "wip" class="tc h6 grey-50">This website is still working in progress</section>
     <main id= "main" class="mh5-l mh3">
         
    <section>
@@ -33,22 +34,22 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
        </div>
       <div class="project-title mt2">
         <h2 class="mv0">
-              Adyen for platforms 
+              KYC hosted onboarding 
         </h2>
         <h2 class="fw3 mv0">
-              Shape payment experience for marketplaces and platforms
+              A hassle free KYC implementation to easily onboard users
         </h2>
       </div>
       <div class="mt4 flex">
-        <div class="w-20-ns w-100 mr3">
+        <div class="w-30-ns w-100 mr3">
             <p class="caption mv0 f5 fw6">Roles</p>
-            <p class="mv0">Product design </p>
+            <p class="mv0">Product designer </p>
         </div>
-        <div class="w-20-ns w-100 mr3">
+        <div class="w-30-ns w-100 mr3">
             <p class="caption mv0 f5 fw6">Time</p>
-            <p class="mv0">2018.05 till now </p>
+            <p class="mv0">2019.03 till 2019.07 </p>
         </div>
-        <div class="w-20-ns w-100">
+        <div class="w-30-ns w-100">
             <p class="caption mv0 f5 fw6">Company</p>
             <a class="line-hover-inline" href="https://www.here.com/en">Adyen </p>
            </a> 
@@ -61,47 +62,178 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
       <div class="w-60-l w-100 fr-ns">
         
 
-<h4 id="adyen-for-platforms-https-www-adyen-com-our-solution-online-payments-marketplaces-is-an-all-in-one-solution-for-any-platform-business-models-to-easily-onboard-users-move-funds-and-payout-to-users"><a href="https://www.adyen.com/our-solution/online-payments/marketplaces">Adyen for platforms</a> is an all-in-one solution for any platform business models to easily onboard users, move funds and payout to users.</h4>
+<p><strong><a href="https://www.adyen.com/our-solution/online-payments/marketplaces">Adyen for platforms</a></strong> is an all-in-one solution for any platform business models to easily onboard users, move funds and payout to users. </p>
 
-<h4 id="may-in-2018-i-joined-the-team-as-a-product-designer-with-a-background-in-designing-and-engineering-i-have-always-been-passionate-about-simplifying-complex-technical-problems-through-thoughtful-design-solutions">May in 2018, I joined the team as a product designer. With a background in designing and engineering, I have always been passionate about simplifying complex technical problems through thoughtful design solutions.</h4>
+<p>May 2018, I joined the team as a product designer. With a background in designing and engineering, I have always been passionate about simplifying complex technical problems through thoughtful design solutions.</p>
 
-<h4 id="i-m-working-on-several-projects-to-improve-the-experience-for-platfrom-business-owners-following-by-i-will-walk-through-several-key-projects-i-ve-been-working-on">I&rsquo;m working on several projects to improve the experience for platfrom business owners, following by I will walk through several key projects I&rsquo;ve been working on.</h4>
+<p>One good example is <strong><a href="https://docs.adyen.com/marketpay/onboarding-and-verification/hosted-onboarding-page">Hosted onboarding page</a></strong>. We built this customer-facing KYC app from ground up, it helps platforms to easily onboard their customers. Following I’ll walk you through the approaches we took and lessons learned.</p>
 
-<h2 id="hop-fully-hosted-experience-to-easily-onboard-user">Hop: Fully hosted experience to easily onboard user</h2>
+<h3 id="hop-fully-hosted-experience-to-easily-onboard-legal-entities">HOP: Fully hosted experience to easily onboard legal entities</h3>
 
-<h3 id="background">Background</h3>
+<p>I believe you have used at least one of the following services: Uber, eBay, Amazon, Airbnb and etc, but have you ever tried to sell, host or drive on platforms like those? If the answer is yes, how do you get paid from those platforms? You must have been through several steps to prove you are you, and you’re doing legitimate businesses. </p>
 
-<p>To comply with government regulations, platforms need to verify 3rd party users&rsquo; information, including personal identity and business information. Adyen for platform provides a fully configurable onboarding solution to platforms, platform owns and control the whole onboarding experience for their users, Ad</p>
+<p>This process is known as KYC (Know your customer), to comply with government regulations, the payment solution providers like Adyen for platforms need to KYC every customers before processing payment on half of the platforms, the steps and requirements vary by countries and regions.  </p>
 
-<h3 id="research">Research</h3>
+<p>Now Adyen for platforms serves over 40 different platforms and help them process payments for millions of end customers. To smoothly onboard everyone, we’ve built a fully hosted app to collect and verify the required information progressively from end customers.  </p>
 
-<p>Platforms have different types of business models, the way they&rsquo;ve designed to onboard their users differ across platforms. To design a solution to fit within several platforms&rsquo; onboarding flows is quite challenge. To start with, I did my research with trying out to walk through different onboarding flows to explore the different</p>
+<h3 id="what-s-the-problem-here">What’s the problem here? </h3>
 
-<h3 id="interaction-design">Interaction design</h3>
+<p>From 2018 to 2019, we scaled 10x in terms of the number of end customers. How did they all get KYC-ed? Platforms will ask for the right information whenever Adyen need to perform checks, then pass the data via API to us. Once we got any results, we’ll inform platforms by API notifications. What are the problems with this approach?</p>
 
-<h3 id="visual-guideline">Visual guideline</h3>
+<ol>
+<li><strong>Unstable quality of collected data:</strong> Platforms own the communication with end customers. If they failed to translate the API requirements into accurate messages to customers, we couldn&rsquo;t get qualified information to perform the check.</li>
+<li><strong>Complicated regulatory landscape:</strong> KYC requirements vary from different regions, it complicates the communication with end customers from different countries, especially if platforms lack the knowledge of local regulations.</li>
+<li><strong>Extra dev resources requested:</strong> Platforms need to invest in time and people to integrate with KYC API. It’s a key blocker for those who don’t have enough resources or want to launch fast. </li>
+</ol>
 
-<h3 id="flexbility">Flexbility</h3>
+<p>All these points made us think if Adyen could communicate directly with end customers to collect data and perform checks. Since we’re the expert of those KYC regulations, we can definitely do better in collecting qualified data and ch.</p>
 
-<h2 id="timeline-to-track-onboarding-progress">Timeline to track onboarding progress</h2>
+<h3 id="target-platform">Target platform</h3>
 
-<p>The first project I worked with the team is to provide an intuitive way for platform user to monitor user onboarding progress.</p>
+<p>First, which platforms should we target at? Despite all the above-mentioned problems, a lot of enterprise-level platforms still prefer API because it provides a flexible way to fully customize the interfaces. So who might be interested in an alternative KYC solution, in which Adyen can directly communicate with end customers to finish KYC? </p>
 
-<h4 id="background-1">Background</h4>
 
-<p>To comply with government regulations, platforms need to verify 3rd party users&rsquo; information, including personal identity and business information. Adyen for platform provides a fully configurable onboarding solution to platforms, platform owns and control the whole onboarding experience for their users, Ad</p>
 
-<p>Onboarding is complex, Adyen has provided a solution to collect and verify all the information by API</p>
+<figure class="popup pointer">
+    
+        <img src="/img/works/targetmarket.png"  />
+    
+</figure>
+<div class="show">
+    <div class="overlay"></div>
+    <div class="img-show">
+      <span>X</span>
+      <img src="">
+    </div>
+</div>
 
-<p>Problem: For user who don&rsquo;t have access to database or any technology background, it&rsquo;s really hard to understand the onboarding progress</p>
 
-<h4 id="design">Design</h4>
+<p>I segmented the platforms by their size and end-customer types and conducted interviews with several account managers and platforms for each segment. By the end, we decided to focus on mid-sized platforms working with business entities.</p>
 
-<p>What we to do: Timeline view to visualize the onboarding procedure for the user,</p>
+<p>A mid-sized platform normally have restricted resources to build everything from scratch. Also, targeting at business customers indicate they most likely have a limited number of end customers to onboard, it doesn’t worth the time and effort to build everything in-house for a small user base. </p>
 
-<p>Design process:</p>
+<h3 id="one-solution-for-x-types-of-platforms">One solution for X types of platforms</h3>
 
-<h2 id="improved-sub-account-management-experience">Improved sub-account management experience</h2>
+<p>Craft experiences for platforms mean you need to consider both platform and end customers, their concerns and focuses are quite different. </p>
+
+<p>For the end customers, they need to hand in sensitive information, they need to feel comfortable and confident enough to submit that information to a trustworthy data collector. Adyen was an unknown brand to most of them, so it&rsquo;s important to smoothly transit them between the original platform&rsquo;s experience and Adyen’s contexts. To achieve this, we need to align with platforms both visually and in content-wise. </p>
+
+<p>For platforms, if Adyen and themselves will be in direct communication with end customers, it’s crucial to always keep aligned with each other in terms of what has been communicated and how. Also, platforms still need to integrate with other APIs to enable payments, we need to thoroughly examine the holistic integration experience to make sure Adyen and platforms perfectly in sync. </p>
+
+<p>So the challenge becomes: HMW design a new KYC solution that could </p>
+
+<h4 id="examine-exisiting-onboarding-flows">Examine exisiting onboarding flows</h4>
+
+<p>I took a step back and put myself in the customer’s shoes. Went through several onboarding flows to distinguish any shared partterns.</p>
+
+
+
+<figure class="popup pointer">
+    
+        <img src="/img/works/platformflows.png"  />
+    
+</figure>
+<div class="show">
+    <div class="overlay"></div>
+    <div class="img-show">
+      <span>X</span>
+      <img src="">
+    </div>
+</div>
+
+
+<p>Here are some key findings: </p>
+
+<p><strong>Continous KYC:</strong> Platforms will collect minimal information to sign customer up. Then set up different tiers for further validation along the way. It’s continuous KYC progress. 
+<strong>Flexible KYC:</strong> Different platforms have different flows to KYC their customers, some even made it part of funds payout flow.
+<strong>Immediate feedback is the key:</strong> A lot of platforms failed to give immediate response to inform customers about the validation results, which delays the KYC progress and results in a lot of complaints from customers.  </p>
+
+<h4 id="single-page-application">Single page application</h4>
+
+<p>Keep all the findings in mind, we grappled with different solutions and decided to go with a fully hosted single page application.</p>
+
+<p>What we don&rsquo;t want to do is to rebuild the platform&rsquo;s onboarding flow to accomodate our KYC process, it won&rsquo;t scale. Rather, we stayed clear from the platform&rsquo;s already established experience. How? With a fully hosted solution, Hop will serve as a standby verification step that can only be triggered when neccessary.</p>
+
+<p>Here’s how we planed to integrate this single page application into the current API offering from a high level:</p>
+
+
+
+<figure class="popup pointer">
+    
+        <img src="/img/works/usehopflow.png"  />
+    
+</figure>
+<div class="show">
+    <div class="overlay"></div>
+    <div class="img-show">
+      <span>X</span>
+      <img src="">
+    </div>
+</div>
+
+
+<h3 id="interaction-design">Interaction Design</h3>
+
+<p>Customers can only access to HOP when a specific KYC check need to be finished. By then, platforms will get notified by Adyen with a one-time usage HOP link. They can share this link with customers and once customers got redirected, HOP will start from there.</p>
+
+<h4 id="user-flow">User flow</h4>
+
+<p>Following demos how this app works from an end customer&rsquo;s point of view.
+
+
+<figure class="popup pointer">
+    
+        <img src="/img/works/hopuserflow.png"  />
+    
+</figure>
+<div class="show">
+    <div class="overlay"></div>
+    <div class="img-show">
+      <span>X</span>
+      <img src="">
+    </div>
+</div>
+</p>
+
+<p>Checks were categorized into 3 basic types, each type contains several different steps. Each check stays independent, so that customers can drop off in between without missing any validation progress.</p>
+
+<h4 id="visual-style">Visual style</h4>
+
+<p>Adyen is an unfamiliar brand for most of the end customers. When it comes to submitting sensitive data towards an unknow party, most people concerned about their privacy. How can we build the trust with them?</p>
+
+<p>[wip]</p>
+
+<h3 id="content-strategy">Content strategy</h3>
+
+<p>Designing for customers from 15 different countries is challenging, especially working on such a product dealing with highly sensitive information, we need to make sure our content and language are clear and accurate.</p>
+
+<p>We involved UX copywriter from the very beginning of the product, she helped with defining the foundations of the words and tones we&rsquo;re applying in the entire product.</p>
+
+<h4 id="localisation">Localisation</h4>
+
+<p>First, we localised the content, with the help of our compliance officer, we figured out the most accurate requirements for different countries. Then together with UX copywriter, we translated those requirements into concise and helpful strings to faciliate the verification process.</p>
+
+<p>Second, we planned to localise the languages. Considering we&rsquo;re mostly covering audiences from EU, we will start with DE, FR and ES.</p>
+
+<h4 id="build-the-brand">Build the brand</h4>
+
+<p>[WIP]</p>
+
+<h3 id="testing">Testing</h3>
+
+<p>If you&rsquo;re designing for B2B, recruit participants for user testing is not an easy thing. For this product, we&rsquo;re designing for both platforms and their end customers, we need to test with both audiences.</p>
+
+<p>At start, we just invited several internal people for the first round testing. They had basic knowlea gathered some valid feedbacks around the interactions and flows.</p>
+
+<p>On the other hand, I actively promoted this product and my prototype with the sales and support team, they have the direct contact with platforms. By doing so, I successfully being invited to 2 merchant meetings, to present my design solutions. With direct chats with platforms, I gained in-depth insights around user onboarding and KYC flows.</p>
+
+<h3 id="analytic-tracking">Analytic tracking</h3>
+
+<p>[WIP]</p>
+
+<h3 id="final">Final</h3>
+
+<p><strong><a href="https://docs.adyen.com/marketpay/onboarding-and-verification/hosted-onboarding-page">Hosted onboarding page</a></strong></p>
 
       </div>
     </section>

@@ -12,15 +12,6 @@
     
     
     <item>
-      <title>Adyen for platforms</title>
-      <link>www.yaorongli.com/works/adyen/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>www.yaorongli.com/works/adyen/</guid>
-      <description>Adyen for platforms is an all-in-one solution for any platform business models to easily onboard users, move funds and payout to users. May in 2018, I joined the team as a product designer. With a background in designing and engineering, I have always been passionate about simplifying complex technical problems through thoughtful design solutions. I&amp;rsquo;m working on several projects to improve the experience for platfrom business owners, following by I will walk through several key projects I&amp;rsquo;ve been working on.</description>
-    </item>
-    
-    <item>
       <title>Clio</title>
       <link>www.yaorongli.com/works/clio/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -40,13 +31,23 @@ Since hundreds of products are constantly updating their documentations, develop
     </item>
     
     <item>
+      <title>KYC hosted onboarding</title>
+      <link>www.yaorongli.com/works/adyen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>www.yaorongli.com/works/adyen/</guid>
+      <description>Adyen for platforms is an all-in-one solution for any platform business models to easily onboard users, move funds and payout to users. May 2018, I joined the team as a product designer. With a background in designing and engineering, I have always been passionate about simplifying complex technical problems through thoughtful design solutions.
+One good example is Hosted onboarding page. We built this customer-facing KYC app from ground up, it helps platforms to easily onboard their customers.</description>
+    </item>
+    
+    <item>
       <title>Kao</title>
       <link>www.yaorongli.com/works/kao/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>www.yaorongli.com/works/kao/</guid>
-      <description>Design system You probably heard about design system, it seems like everybody in the design industry are talking about it now. It goes beyond traditional style guidelines by incoperating designs with creative technologiest to bulid up a sets of resuable components, guided by clear standards and can be assemble to implement any type of applciations.
-When I first joined the team, all our apps were built based on an open-source frameworks &amp;ndash; react-bootstrap.</description>
+      <description>Design system A well established design system goes beyond traditional style guidelines by incoperating designs with creative technologiest to bulid up a sets of resuable components, guided by clear standards and can be assemble to implement any type of applciations.
+When I first joined the team, all our apps were built based on an open-source frameworks &amp;ndash; react-bootstrap. For developers it&amp;rsquo;s a really convinient way to reuse as much as possible the code snippts.</description>
     </item>
     
     <item>
