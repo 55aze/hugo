@@ -100,11 +100,10 @@ By the end of this exercise, I sorted out the most needed blocks and also catego
 After talk with the project owner, I started with the design of **project dashboard** page first.
 
 
-#### Ideation (Working in progress)
+#### Ideation 
 
 I'm now working on Design solutions ideations. 
 
 {{< img src="/img/works/dashboard-wip.png" class="popup pointer" >}}
 
-
-## To be continued...
+#### Ideation 

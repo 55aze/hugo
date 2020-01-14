@@ -74,11 +74,11 @@ url="https://github.com/55aze/hugo/blob/master/src/cv.pdf"
 
 [params.work]
 [[params.work.projects]]
-name = "Adyen for platforms"
+name = "KYC Hosted onboarding"
 url = "works/adyen"
-description = "Shaping payment experience for marketplaces"
-role = "UX/UI Design, User Research"
-time = "2018.05 to now"
+description = "Hassle-free KYC process to easily onboard users "
+role = "Design, Research, Plan"
+time = "2019.03 to 2019.07"
 company = "Adyen"
 cover = "adyen-cover"
 
@@ -89,7 +89,7 @@ description = "One workspace for different users"
 role = "UX/UI Design, User Research"
 time = "2017.08 to 2017.11"
 company = "HERE"
-cover = "Izumi"
+cover = "izumi1"
 
 
 
@@ -114,17 +114,6 @@ role = "UX/UI design, User Research"
 company = "HERE"
 cover = "dashboard-cover"
 
-
-
-
-[[params.work.projects]]
-name = "Clio"
-url = "works/clio"
-description = "Platform to help manange the process of documentation delivery"
-company = "HERE"
-role ="UX/UI Design, Usibility Testing"
-time = "2017.04 till 2017.07"
-cover = "adyen-cover"
 
 
 

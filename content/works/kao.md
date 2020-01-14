@@ -2,7 +2,7 @@
 title: "Kao"
 draft: false
 role: "UX/UI Design"
-time: "2017.0 Till Now"
+time: "2017.03 Till 2018.03"
 company: "HERE"
 description: "A consistent interactive design system"
 image: "kao"
@@ -10,7 +10,7 @@ image: "kao"
 
 ### Design system
 
-You probably heard about design system, it seems like everybody in the design industry are talking about it now. It goes beyond traditional style guidelines by incoperating designs with creative technologiest to bulid up a sets of resuable components, guided by clear standards and can be assemble to implement any type of applciations. 
+A well established design system goes beyond traditional style guidelines by incoperating designs with creative technologiest to bulid up a sets of resuable components, guided by clear standards and can be assemble to implement any type of applciations. 
 
 
 When I first joined the team, all our apps were built based on an open-source frameworks -- react-bootstrap. For developers it's a really convinient way to reuse as much as possible the code snippts. While it's not highly costomizable, and also not comply with the company branding, so we started with existing components and build up a refreshed design guideline and related interactive react components.

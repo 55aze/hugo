@@ -22,6 +22,10 @@ body{
     // }
 }
 
+#wip{
+    color: $grey-60;
+    background-color: $grey-20;
+}
 
 
 .in-progress{
@@ -105,11 +109,11 @@ body{
 
 .project-header {
     min-height: 40vh;
+    margin-right: -$spacing-32;
     margin-left:0;
     @include break(not-small) {
         margin-right: -$spacing-96;
     }
-   
 }
 
 
@@ -276,7 +280,11 @@ body{
     // }
 
     h2,h3,h4,p{
-        color: $grey-80;
+        color: $black;
+    }
+
+    b{
+        font-weight: 800;
     }
 
     h2{
@@ -284,8 +292,13 @@ body{
     }
 
 
+    h3{
+        margin: $spacing-64 0 0 0;
+    }
+
+
     h4 {
-        margin: $spacing-24 0 0 0;
+        margin: $spacing-32 0 0 0;
     }
 
     p {
@@ -305,7 +318,7 @@ body{
     }
 
     figure{
-        margin: $spacing-large 0 0 -60%;
+        margin: $spacing-large 0 0 -40%;
         @media screen and (max-width: 968px) {
             margin: 0 auto;
         }

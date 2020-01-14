@@ -9,21 +9,21 @@
         <img src="/img/intro.svg"  alt="aboutme">
     </div>
 
-    <div class="mw6-l center mt6-ns mt4">    
-       <div class="mb4">
+    <div class="mw7 center mt6-ns mt4">    
+       <div class="mb4f">
             <div class="mb2 caption fw6 grey-70"> Work </div>
             {{ range .Site.Params.Experience.works }}  
-            <div class="flex-ns items-end justify-between mv2">   
+            <div class="flex items-end justify-between mv2">   
                 <p class="mv0 body-s fw4">{{ .name}}@ {{ .company}}</p>
                 <p class="w-40-ns tr-ns mv0 body-s ">{{ .time}}</p>
             </div>
             {{ end }} 
         </div>
 
-         <div class="mb4" >
+         <div class="mb4 cf" >
             <div class="mb2 caption fw6 grey-70"> Study </div>
             {{ range .Site.Params.Experience.studies }}  
-            <div class="flex-ns items-end justify-between mv2">   
+            <div class="flex items-end justify-between mv2">   
                  <p class="mv0 body-s fw4">
                    {{ .name}}@ {{ .school}}
                  </p>
@@ -37,8 +37,10 @@
             <h3 class="mb2 tc"> Download my CV <a class="line-hover line-hover-inline" href="https://github.com/55aze/hugo/blob/master/src/cv.pdf">here </a> </h3>
         </div>
     </div>
+
+    {{ partial "footer.html" . }}
+    
 </div>
    
 
-{{ partial "footer.html" . }}
 {{ end }} 
