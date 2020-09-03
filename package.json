@@ -30,7 +30,7 @@
     "gulp-hash": "^4.2.2",
     "gulp-sass": "^3.2.1",
     "hugo": "0.0.3",
-    "node-sass": "^4.13.0",
+    "node-sass": "^4.13.1",
     "tachyons-queries": "^0.3.3"
   },
   "dependencies": {
